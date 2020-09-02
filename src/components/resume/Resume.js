@@ -5,9 +5,8 @@ class Resume extends Component {
   render() {
     return (
       <div class='page-wrapper'>
-          <div class='row'>
-            <div class='column'>
-              <div class="left-column">
+        <div class='row'>
+          <div class='main-column'>
                 <div id='title'>
                   <ul id='header'><b>Autumn Farris</b></ul>
                   <ul id='subheader'><i>Programmer, Web developer, Communicator!</i></ul>
@@ -79,10 +78,8 @@ class Resume extends Component {
                     <ul>Major GPA 4.0/4.0</ul>
                     <ul><b>Dean's List of Scholastic Achievement (2015 - 2017) –– Honoree</b></ul>
                   </div>
-              </div>
             </div>
-            <div class='column'>
-              <div class='right-column'>
+              <div class='column'>
                 <div id='contact'>
                   <ul id='phone-number'>+1 (417) 350-2445</ul>
                   <ul id='email'><a href="" class="active">autumn@autumnfarris.com</a></ul>
@@ -132,8 +129,7 @@ class Resume extends Component {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+            </div>
     );
   }
 }

@@ -6,7 +6,6 @@ $heading-oneFontSize: 18px;
 $heading-oneFontWeight: bold;
 $heading-oneColor: #2B7FCA;
 
-
 .page-wrapper {
   margin: 80px 100px;
   font-family: $bodyFont;
@@ -18,6 +17,7 @@ $heading-oneColor: #2B7FCA;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .column {
@@ -25,6 +25,13 @@ $heading-oneColor: #2B7FCA;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+.main-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2
 }
 
 #header {
