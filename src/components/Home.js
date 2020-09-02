@@ -5,9 +5,8 @@ const home = () => {
     return (
        <div>
           <h1>Home</h1>
-           <p>Home page</p>
            <InstagramEmbed
-             url='https://instagr.am/p/Zw9o4/'
+             url='https://www.instagram.com/p/CDy_BYnDkJd/?utm_source=ig_embed&amp;utm_campaign=loading'
              maxWidth={320}
              hideCaption={false}
              containerTagName='div'
