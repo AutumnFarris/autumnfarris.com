@@ -4,6 +4,7 @@ import './Resume.scss';
 class Resume extends Component {
   render() {
     return (
+      <div class="resume">
       <div class='page-wrapper'>
         <div class='row'>
           <div class='main-column'>
@@ -129,6 +130,7 @@ class Resume extends Component {
                 </div>
               </div>
             </div>
+          </div>
           </div>
     );
   }

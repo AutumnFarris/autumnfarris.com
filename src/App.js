@@ -7,7 +7,7 @@ import Resume from './components/resume/Resume';
 import Instagram from './components/instagram/Instagram';
 import Error from './components/Error';
 import Navigation from './components/navigation/Navigation';
-import './App.css';
+// import './App.css';
 
 class App extends Component {
   render() {
