@@ -20,18 +20,18 @@ $heading-oneColor: #2B7FCA;
   width: 100%;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
 .main-column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 2
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 #header {

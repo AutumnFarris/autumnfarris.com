@@ -7,20 +7,20 @@ class Resume extends Component {
       <div class='page-wrapper'>
         <div class='row'>
           <div class='main-column'>
-                <div id='title'>
-                  <ul id='header'><b>Autumn Farris</b></ul>
-                  <ul id='subheader'><i>Programmer, Web developer, Communicator!</i></ul>
+            <div id='title'>
+              <ul id='header'><b>Autumn Farris</b></ul>
+              <ul id='subheader'><i>Programmer, Web developer, Communicator!</i></ul>
+            </div>
+              <div id='summary'>
+                <div id='heading-one'>
+                  <ul>SUMMARY</ul>
                 </div>
-                <div id='summary'>
-                  <div id='heading-one'>
-                    <ul>SUMMARY</ul>
-                  </div>
-                  <div id='content'>
-                    <ul>Ambitious clean code developer who thrives on expanding
-                    knowledge and skillsets in both the professional and personal
-                    fields.</ul>
-                  </div>
+                <div id='content'>
+                  <ul>Ambitious clean code developer who thrives on expanding
+                  knowledge and skillsets in both the professional and personal
+                  fields.</ul>
                 </div>
+              </div>
                 <div id='experience'>
                   <div id='heading-one'>
                     <ul>EXPERIENCE</ul>
@@ -78,11 +78,11 @@ class Resume extends Component {
                     <ul>Major GPA 4.0/4.0</ul>
                     <ul><b>Dean's List of Scholastic Achievement (2015 - 2017) –– Honoree</b></ul>
                   </div>
-            </div>
-              <div class='column'>
+              </div>
+              <div class='second-column'>
                 <div id='contact'>
                   <ul id='phone-number'>+1 (417) 350-2445</ul>
-                  <ul id='email'><a href="" class="active">autumn@autumnfarris.com</a></ul>
+                  <ul id='email'><a href = "mailto: autumn@autumnfarris.com">autumn@autumnfarris.com</a></ul>
                   <ul id='linkedin'>linkedin.com/in/​autumnfarris</ul>
                 </div>
                 <div id='Languages'>
@@ -129,7 +129,7 @@ class Resume extends Component {
                 </div>
               </div>
             </div>
-            </div>
+          </div>
     );
   }
 }
