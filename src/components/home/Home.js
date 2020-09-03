@@ -5,7 +5,7 @@ const home = () => {
     return (
       <div class="bg">
         <div class="introduction">
-          <h1>Hi, I'm Autumn.</h1>
+          <h1>Hi, I'm Autumn Farris.</h1>
           <p>a web designer</p>
         </div>
       </div>
