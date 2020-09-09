@@ -1,12 +1,13 @@
 import React from 'react';
 import InstagramEmbed from 'react-instagram-embed';
+import './Instagram.scss';
 
 const Instagram = () => {
     return (
-      <div>
+      <div align="center">
         <InstagramEmbed
-          url='https://www.instagram.com/p/CDy_BYnDkJd/?utm_source=ig_embed&amp;utm_campaign=loading'
-          maxWidth={320}
+          url='https://www.instagram.com/p/BXZS6viBIIs/?utm_source=ig_embed&amp;utm_campaign=loading'
+          maxWidth={375}
           hideCaption={false}
           containerTagName='div'
           protocol=''
