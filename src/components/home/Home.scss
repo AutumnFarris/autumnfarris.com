@@ -4,16 +4,22 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 85px 85px 85px;
+  opacity: 0.95;
 }
 
   .content {
     padding-left: 70px;
     padding-top: 50px;
+    position: absolute;
   }
 
   .name {
    color: black;
-   font-size: 68px;
+   font-size: 5vw;
    margin: 10px 0px 2px;
    font-family: sofia;
  }
@@ -21,13 +27,13 @@
  .line {
    background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,1.0)), color-stop(100%,hsla(0,0%,0%,0)));
    height: 2px;
-   width: 435px;
+   width: 98%;
    padding-left: 55px;
  }
 
 p {
   font-family: Rajdhani;
-  font-size: 30px;
+  font-size: 3vw;
   padding-left: 120px;
-  text-align: left
+  text-align: left;
 }
