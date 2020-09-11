@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Resume.scss';
-import Photo from './Photo.jpeg';
+import Photo from './resume_photo.jpeg';
 
 class Resume extends Component {
   render() {
@@ -152,8 +152,6 @@ class Resume extends Component {
                         <ul>12 mile bicycle ride supporting victims of HIV/AIDS</ul>
                       </div>
                     <br />
-                    <div class="photo">
-                    </div>
                     <img src={Photo} alt="Resume Photo" />
                 </div>
               </div>
