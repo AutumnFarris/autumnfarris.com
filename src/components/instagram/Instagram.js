@@ -4,7 +4,7 @@ import './Instagram.scss';
 
 const Instagram = () => {
     return (
-      <div align="center">
+      <div class="div-wrapper">
         <InstagramEmbed
           url='https://www.instagram.com/p/BXZS6viBIIs/?utm_source=ig_embed&amp;utm_campaign=loading'
           maxWidth={375}

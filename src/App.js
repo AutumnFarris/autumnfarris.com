@@ -7,6 +7,7 @@ import Resume from './components/resume/Resume';
 import Instagram from './components/instagram/Instagram';
 import Error from './components/Error';
 import Navigation from './components/navigation/Navigation';
+import Footer from './components/footer/Footer';
 
 import './App.scss';
 
@@ -23,6 +24,7 @@ class App extends Component {
              <Route path="/instagram" component={Instagram}/>
             <Route component={Error}/>
            </Switch>
+           <Footer />
         </div>
       </BrowserRouter>
     );

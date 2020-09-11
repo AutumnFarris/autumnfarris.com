@@ -1,0 +1,18 @@
+.social-media {
+  display: table;
+	margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 9px;
+  float: left;
+}
+
+li:hover {
+  opacity: 0.7;
+}
