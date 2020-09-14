@@ -13,14 +13,14 @@ const Navigation = () => {
           <div class="collapse navbar-collapse">
             <div class="navbar-nav mt-2 mt-lg-0">
               <a class="nav-item nav-link" href="/">Home</a>
-              <a class="nav-item nav-link" href="/about">About</a>
+              <a class="nav-item nav-link" href="/travel">Travel</a>
               <a class="nav-item nav-link" href="/resume">Resume</a>
               <a class="nav-item nav-link" href="/instagram">Instagram</a>
             </div>
             </div>
           </div>
          </nav>
-      
+
     );
 }
 

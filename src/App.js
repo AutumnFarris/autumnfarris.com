@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './components/home/Home';
-import About from './components/About';
+import Travel from './components/travel/Travel';
 import Resume from './components/resume/Resume';
 import Instagram from './components/instagram/Instagram';
 import Error from './components/Error';
@@ -19,7 +19,7 @@ class App extends Component {
           <Navigation />
             <Switch>
              <Route path="/" component={Home} exact/>
-             <Route path="/about" component={About}/>
+             <Route path="/travel" component={Travel}/>
              <Route path="/resume" component={Resume}/>
              <Route path="/instagram" component={Instagram}/>
             <Route component={Error}/>
