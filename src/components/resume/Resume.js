@@ -152,7 +152,9 @@ class Resume extends Component {
                         <ul>12 mile bicycle ride supporting victims of HIV/AIDS</ul>
                       </div>
                     <br />
-                    <img src={Photo} alt="Resume Photo" />
+                    <div id='resume-photo'>
+                      <img src={Photo} alt="Resume Photo" />
+                    </div>  
                 </div>
               </div>
             </div>
