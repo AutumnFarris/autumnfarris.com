@@ -1,11 +1,46 @@
-.polaroid {
-  width: 80%;
+body {
+  padding: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+.img__wrap {
+  position: relative;
+  height: auto;
+  width: 425px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  filter: brightness(150%);
+  transition: 1s ease-in-out;
+}
+
+.img__wrap:hover {
+  -webkit-filter: brightness(85%);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .container {
   text-align: center;
   padding: 10px 20px;
+  visibility: hidden;
+  font-family: Permanent Marker;
+  font-size: 40px;
+  opacity: 1;
+  color: black;
+
 }
