@@ -7,6 +7,7 @@ class Resume extends Component {
     return (
       <div class='page-wrapper'>
         <div class='row'>
+          <div class='row-style'>
           <div class='main-column'>
             <div id='title'>
               <ul id='header'><b>Autumn Farris</b></ul>
@@ -154,11 +155,12 @@ class Resume extends Component {
                     <br />
                     <div id='resume-photo'>
                       <img src={Photo} alt="Resume Photo" />
-                    </div>  
+                    </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
     );
   }
 }
