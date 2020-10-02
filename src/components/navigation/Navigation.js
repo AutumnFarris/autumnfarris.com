@@ -2,6 +2,7 @@ import React from 'react';
 import './Navigation.scss';
 
 import { NavLink } from 'react-router-dom';
+import { Link } from "react-router-relative-link";
 
 const Navigation = () => {
     return (
@@ -13,7 +14,7 @@ const Navigation = () => {
           <div class="collapse navbar-collapse">
             <div class="navbar-nav mt-2 mt-lg-0">
               <a class="nav-item nav-link" href="/">Home</a>
-              <a class="nav-item nav-link" href="/travel">Travel</a>
+              <a class="nav-item nav-link" href="/travel">Travel Blog</a>
               <a class="nav-item nav-link" href="/resume">Resume</a>
               <a class="nav-item nav-link" href="/instagram">Instagram</a>
             </div>

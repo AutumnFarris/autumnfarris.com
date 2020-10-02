@@ -10,6 +10,7 @@ import Paris from './photos/Paris.jpeg';
 import Belgium from './photos/Belgium.jpeg';
 import Rome from './photos/Rome.JPG';
 import './Travel.scss';
+import { NewZealand } from './NewZealand/NewZealand.js';
 
 const Travel = () => {
     return (
@@ -17,9 +18,10 @@ const Travel = () => {
         <div class="row">
           <div class="col-4">
             <div class="img__wrap">
-              <img src={NZ} alt="New Zealand" />
-                <div class="polaroid">
-                  <p class="img__description">New Zealand</p>
+              <a href={NewZealand}>
+                <img src={NZ} alt="New Zealand" /></a>
+                  <div class="polaroid">
+                    <p class="img__description">New Zealand</p>
                 </div>
             </div>
           </div>
