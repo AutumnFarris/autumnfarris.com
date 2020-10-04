@@ -1,8 +1,7 @@
 import React from 'react';
 import './Navigation.scss';
 
-import { NavLink } from 'react-router-dom';
-import { Link } from "react-router-relative-link";
+
 
 const Navigation = () => {
     return (

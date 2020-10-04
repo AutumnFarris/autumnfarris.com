@@ -1,101 +1,31 @@
 import React from 'react';
-import Iframe from 'react-iframe';
-import NZ from './photos/NZ.jpg';
-import OperaHouse from './photos/OperaHouse.JPG';
-import Gettysburg from './photos/Gettysburg.jpeg';
-import Austria from './photos/Austria.JPG';
-import London from './photos/London.JPG';
-import Germany from './photos/Germany.jpeg';
-import Paris from './photos/Paris.jpeg';
-import Belgium from './photos/Belgium.jpeg';
-import Rome from './photos/Rome.JPG';
 import './Travel.scss';
-import { NewZealand } from './NewZealand/NewZealand.js';
+import Locations from "./Locations"
+import NewZealand from './NewZealand/NewZealand';
+import Australia from './Australia/Australia';
+import { Route, Switch, useRouteMatch } from "react-router-dom"
 
 const Travel = () => {
+  let match = useRouteMatch();
+
     return (
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <div class="img__wrap">
-              <a href={NewZealand}>
-                <img src={NZ} alt="New Zealand" /></a>
-                  <div class="polaroid">
-                    <p class="img__description">New Zealand</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={OperaHouse} alt="Australia" />
-                <div class="polaroid">
-                  <p class="img__description">Australia</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={London} alt="London" />
-                <div class="polaroid">
-                  <p class="img__description">London</p>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={Rome} alt="Rome" />
-                <div class="polaroid">
-                  <p class="img__description">Rome</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={Paris} alt="Paris" />
-                <div class="polaroid">
-                  <p class="img__description">Paris</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={Germany} alt="Germany" />
-                <div class="polaroid">
-                  <p class="img__description">Germany</p>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={Gettysburg} alt="Gettysburg" />
-                <div class="polaroid">
-                  <p class="img__description">Gettysburg</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={Belgium} alt="Belgium" />
-                <div class="polaroid">
-                  <p class="img__description">Belgium</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="img__wrap">
-              <img src={Austria} alt="Austria" />
-                <div class="polaroid">
-                  <p class="img__description">Austria</p>
-                </div>
-            </div>
-          </div>
-        </div>
+      <div>
+        <Switch>
+
+          <Route path={`${match.path}/NewZealand`}>
+            <NewZealand />
+          </Route>
+          <Route path={`${match.path}/Australia`}>
+            <Australia />
+          </Route>
+          <Route>
+            <Locations />
+          </Route>
+
+        </Switch>
       </div>
-    );
+          );
 }
+
 
 export default Travel;
