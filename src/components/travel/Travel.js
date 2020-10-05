@@ -1,8 +1,7 @@
 import React from 'react';
-import './Travel.scss';
-import Locations from "./Locations"
-import NewZealand from './NewZealand/NewZealand';
-import Australia from './Australia/Australia';
+import TravelBlog from "./TravelBlog"
+import NewZealand from './Locations/NewZealand/NewZealand';
+import Australia from './Locations/Australia/Australia';
 import { Route, Switch, useRouteMatch } from "react-router-dom"
 
 const Travel = () => {
@@ -19,7 +18,7 @@ const Travel = () => {
             <Australia />
           </Route>
           <Route>
-            <Locations />
+            <TravelBlog />
           </Route>
 
         </Switch>

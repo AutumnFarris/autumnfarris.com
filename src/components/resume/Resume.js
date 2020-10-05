@@ -10,7 +10,7 @@ class Resume extends Component {
           <div class='row-style'>
             <div class='main-column'>
               <div id='title'>
-                <ul id='header'><b>Autumn Farris</b></ul>
+                <ul id='resume-header'><b>Autumn Farris</b></ul>
                 <ul id='subheader'><i>Programmer, Web developer, Communicator!</i></ul>
               </div>
             <div id='summary'>

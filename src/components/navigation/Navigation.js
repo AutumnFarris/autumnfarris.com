@@ -1,27 +1,23 @@
 import React from 'react';
 import './Navigation.scss';
+import { Navbar, Nav } from 'react-bootstrap';
 
-
-
-const Navigation = () => {
+const NavigationTwo = () => {
     return (
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        </button>
-          <div class="navbar">
-          <div class="collapse navbar-collapse">
-            <div class="navbar-nav mt-2 mt-lg-0">
-              <a class="nav-item nav-link" href="/">Home</a>
-              <a class="nav-item nav-link" href="/travel">Travel Blog</a>
-              <a class="nav-item nav-link" href="/resume">Resume</a>
-              <a class="nav-item nav-link" href="/instagram">Instagram</a>
-            </div>
-            </div>
-          </div>
-         </nav>
+      <Navbar bg="white" expand="sm">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="m-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/travel">Travel Blog</Nav.Link>
+              <Nav.Link href="/resume">Resume</Nav.Link>
+              <Nav.Link href="/instagram">Instagram</Nav.Link>
+            </Nav>
+        </Navbar.Collapse>
+      </Navbar>
 
-    );
+      );
 }
 
-export default Navigation;
+export default NavigationTwo;

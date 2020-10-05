@@ -11,7 +11,7 @@ import Rome from './photos/Rome.JPG';
 import './Travel.scss';
 import { Link, useRouteMatch } from "react-router-dom";
 
-const Locations = () => {
+const TravelBlog = () => {
 let match = useRouteMatch();
     return (
 
@@ -105,4 +105,4 @@ let match = useRouteMatch();
 }
 
 
-export default Locations;
+export default TravelBlog;
