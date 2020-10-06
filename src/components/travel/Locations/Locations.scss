@@ -5,6 +5,11 @@
   padding-bottom: 10px;
 }
 
+#main-image {
+  width: 100%;
+  box-shadow: 5px 10px 18px #888888;
+}
+
 #location-images {
   width: 284px;
   height: 213px;
@@ -32,6 +37,8 @@
   float: left;
   -ms-transform: rotate(-8deg); /* IE 9 */
   -webkit-transform: rotate(-8deg); /* Safari */
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
   transform: rotate(-8deg);
   position: absolute;
   right: 0;
@@ -41,5 +48,4 @@
   text-align: center;
   font-family: Permanent Marker;
   font-size: 25px;
-
 }

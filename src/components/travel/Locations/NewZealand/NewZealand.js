@@ -7,15 +7,19 @@ import MtRuapehu from './NewZealandPhotos/MtRuapehu.jpg';
 const NewZealand = () => {
     return (
 
-      <div class="container-fluid">
+      <div class="container">
         <div id="row">
           <div id="col-sm-12">
             <div id="location-header">
               <h1>8 Weeks in New Zealand</h1>
             </div>
-            <div>
-              <img src={ArthursPass} alt="Arthur's Pass" />
-            </div>
+              <img id="main-image" src={ArthursPass} alt="Arthur's Pass" />
+          </div>
+        </div>
+        <div id="row">
+          <div id="col-sm-12">
+          <br />
+          <br />
             <h6>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -35,8 +39,12 @@ const NewZealand = () => {
              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
              </h6>
-             </div>
-             </div>
+            </div>
+           </div>
+           <br />
+           <br />
+           <br />
+
           <div class="row">
             <div class="col">
               <div class="location-polaroids rotate_right">
@@ -49,7 +57,6 @@ const NewZealand = () => {
               </div>
             </div>
           </div>
-
       </div>
 
     );

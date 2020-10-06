@@ -109,9 +109,9 @@ class Resume extends Component {
                 <div id='contact'>
                   <ul id='phone-number'>+1 (417) 350-2445</ul>
                   <br />
-                  <ul id='email'><a href = "mailto: autumn@autumnfarris.com">autumn@autumnfarris.com</a></ul>
+                  <ul id='email'><a href="mailto: autumn@autumnfarris.com">autumn@autumnfarris.com</a></ul>
                   <br />
-                  <ul id='linkedin'>linkedin.com/in/​autumnfarris</ul>
+                  <ul id='linkedin'><a href="https://www.linkedin.com/in/autumnfarris/">linkedin.com/in/​autumnfarris</a></ul>
                 </div>
                 <div id='Languages'>
                   <div id='heading-one'>
