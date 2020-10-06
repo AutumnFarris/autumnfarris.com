@@ -2,8 +2,8 @@ import React from 'react';
 
 const Australia = () => {
     return (
-       <div>
-          <p>Welcome to Australia!</p>
+       <div id="location-header">
+          <h1>72 Hours in Australia</h1>
        </div>
     );
 }

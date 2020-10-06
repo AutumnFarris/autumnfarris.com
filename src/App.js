@@ -28,8 +28,8 @@ class App extends Component {
             </Route>
             <Route component={Error}/>
           </Switch>
-
           <Footer />
+
         </div>
       </Router>
     );

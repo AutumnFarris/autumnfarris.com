@@ -1,5 +1,6 @@
-img {
+#travel-blog-img {
   width: 100%;
+  padding: 10px 10px 20px 10px;
 }
 
 .row {
@@ -16,7 +17,7 @@ img {
   flex: 1;
 }
 
-.img__wrap {
+.img-wrap {
   height: auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -24,14 +25,14 @@ img {
   opacity: 1;
 }
 
-.img__wrap:hover .img__description {
+.img-wrap:hover .img-description {
   visibility: visible;
   opacity: 1;
   filter: brightness(150%);
   transition-timing-function: ease-in-out;
 }
 
-.img__wrap:hover {
+.img-wrap:hover {
   -webkit-filter: brightness(80%);
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
@@ -40,9 +41,8 @@ img {
   transition: all .5s ease;
 }
 
-.polaroid {
+#travel-blog-polaroid {
   text-align: center;
-  padding: 10px 20px;
   visibility: hidden;
   font-family: Permanent Marker;
   font-size: 40px;

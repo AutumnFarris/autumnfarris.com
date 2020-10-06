@@ -18,82 +18,82 @@ let match = useRouteMatch();
 <div class="container">
   <div class="row">
     <div class="col-4">
-      <div class="img__wrap">
+      <div class="img-wrap">
         <Link to={`${match.url}/NewZealand`} style={{ textDecoration: 'none' }}>
-          <img src={NZ} alt="New Zealand" />
-            <div class="polaroid">
-              <p class="img__description">New Zealand</p>
-          </div>
-        </Link>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="img__wrap">
-        <Link to={`${match.url}/Australia`} style={{ textDecoration: 'none' }}>
-          <img src={OperaHouse} alt="Australia" />
-            <div class="polaroid">
-              <p class="img__description">Australia</p>
+          <img id="travel-blog-img" src={NZ} alt="New Zealand" />
+            <div id="travel-blog-polaroid">
+              <p class="img-description">New Zealand</p>
             </div>
         </Link>
       </div>
     </div>
     <div class="col-4">
-      <div class="img__wrap">
-        <img src={London} alt="London" />
-          <div class="polaroid">
-            <p class="img__description">London</p>
+      <div class="img-wrap">
+        <Link to={`${match.url}/Australia`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={OperaHouse} alt="Australia" />
+            <div id="travel-blog-polaroid">
+              <p class="img-description">Australia</p>
+            </div>
+        </Link>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="img-wrap">
+        <img id="travel-blog-img" src={London} alt="London" />
+          <div id="travel-blog-polaroid">
+            <p class="img-description">London</p>
           </div>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-4">
-      <div class="img__wrap">
-        <img src={Rome} alt="Rome" />
-          <div class="polaroid">
-            <p class="img__description">Rome</p>
+      <div class="img-wrap">
+        <img id="travel-blog-img" src={Rome} alt="Rome" />
+          <div id="travel-blog-polaroid">
+            <p class="img-description">Rome</p>
           </div>
       </div>
     </div>
     <div class="col-4">
-      <div class="img__wrap">
-        <img src={Paris} alt="Paris" />
-          <div class="polaroid">
-            <p class="img__description">Paris</p>
+      <div class="img-wrap">
+        <img id="travel-blog-img" src={Paris} alt="Paris" />
+          <div id="travel-blog-polaroid">
+            <p class="img-description">Paris</p>
           </div>
       </div>
     </div>
     <div class="col-4">
-      <div class="img__wrap">
-        <img src={Germany} alt="Germany" />
-          <div class="polaroid">
-            <p class="img__description">Germany</p>
+      <div class="img-wrap">
+        <img id="travel-blog-img" src={Germany} alt="Germany" />
+          <div id="travel-blog-polaroid">
+            <p class="img-description">Germany</p>
           </div>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-4">
-      <div class="img__wrap">
-        <img src={Gettysburg} alt="Gettysburg" />
-          <div class="polaroid">
-            <p class="img__description">Gettysburg</p>
+      <div class="img-wrap">
+        <img id="travel-blog-img" src={Gettysburg} alt="Gettysburg" />
+          <div id="travel-blog-polaroid">
+            <p class="img-description">Gettysburg</p>
           </div>
       </div>
     </div>
     <div class="col-4">
-      <div class="img__wrap">
-        <img src={Belgium} alt="Belgium" />
-          <div class="polaroid">
-            <p class="img__description">Belgium</p>
+      <div class="img-wrap">
+        <img id="travel-blog-img" src={Belgium} alt="Belgium" />
+          <div id="travel-blog-polaroid">
+            <p class="img-description">Belgium</p>
           </div>
       </div>
     </div>
     <div class="col-4">
-      <div class="img__wrap">
-        <img src={Austria} alt="Austria" />
-          <div class="polaroid">
-            <p class="img__description">Austria</p>
+      <div class="img-wrap">
+        <img id="travel-blog-img" src={Austria} alt="Austria" />
+          <div id="travel-blog-polaroid">
+            <p class="img-description">Austria</p>
           </div>
       </div>
     </div>

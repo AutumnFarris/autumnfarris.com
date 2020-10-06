@@ -1,6 +1,45 @@
-#header {
+#location-header {
   font-family: sofia;
   text-align: center;
   font-weight: bold;
   padding-bottom: 10px;
+}
+
+#location-images {
+  width: 284px;
+  height: 213px;
+}
+
+.location-polaroids {
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  -moz-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+  position: absolute;
+  right: 290px;
+}
+
+.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+  position: absolute;
+  right: 0;
+}
+
+#caption {
+  text-align: center;
+  font-family: Permanent Marker;
+  font-size: 25px;
+
 }
