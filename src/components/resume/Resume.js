@@ -10,24 +10,26 @@ class Resume extends Component {
           <div class='row-style'>
             <div class='main-column'>
               <div id='title'>
-                <ul id='resume-header'><b>Autumn Farris</b></ul>
-                <ul id='subheader'><i>Programmer, Web developer, Communicator!</i></ul>
+                <div id='resume-header'><b>Autumn Farris</b>
+                </div>
+                  <div id='subheader'><i>Programmer, Web developer, Communicator!</i>
+                  </div>
               </div>
             <div id='summary'>
               <div id='heading-one'>
-                <ul>SUMMARY</ul>
+                <p>SUMMARY</p>
               </div>
               <div id='content'>
-                <ul>Ambitious clean code developer who thrives on expanding
+                <p>Ambitious clean code developer who thrives on expanding
                 knowledge and skillsets in both the professional and personal
-                fields.</ul>
+                fields.</p>
               </div>
             </div>
               <div id='heading-one'>
-                <ul>EXPERIENCE</ul>
+                <p>EXPERIENCE</p>
               </div>
               <div id='heading-two'>
-                <ul><b>Glasswerks</b>, L.A., CA –– <i>Programmer</i></ul>
+                <p><b>Glasswerks</b>, L.A., CA –– <i>Programmer</i></p>
               </div>
               <div id='heading-three'>
                 <ul>November 2018 - May 2019</ul>
@@ -118,12 +120,14 @@ class Resume extends Component {
                     <ul>LANGUAGES</ul>
                   </div>
                   <div id='content'>
-                    <ul>Html/CSS/SCSS</ul>
-                    <ul>SQL</ul>
-                    <ul>Javascript/JSON/React</ul>
-                    <ul>PHP</ul>
-                    <ul>Elixir</ul>
-                    <ul>C#</ul>
+                    <ul>
+                      <li>Html/CSS/SCSS</li>
+                      <li>SQL</li>
+                      <li>Javascript/JSON/React</li>
+                      <li>PHP</li>
+                      <li>Elixir</li>
+                      <li>C#</li>
+                    </ul>
                   </div>
                     <div id='heading-one'>
                       <ul>FRAMEWORKS/SOFTWARE</ul>

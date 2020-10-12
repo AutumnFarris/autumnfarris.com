@@ -8,16 +8,16 @@ const NewZealand = () => {
     return (
 
       <div class="container">
-        <div id="row">
-          <div id="col-sm-12">
+        <div class="row">
+          <div class="col-sm-12">
             <div id="location-header">
               <h1>8 Weeks in New Zealand</h1>
             </div>
               <img id="main-image" src={ArthursPass} alt="Arthur's Pass" />
           </div>
         </div>
-        <div id="row">
-          <div id="col-sm-12">
+        <div class="row">
+          <div class="col-sm-12">
           <br />
           <br />
             <h6>
@@ -57,6 +57,8 @@ const NewZealand = () => {
               </div>
             </div>
           </div>
+          <br />
+          <br />
       </div>
 
     );

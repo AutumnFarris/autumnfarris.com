@@ -23,25 +23,21 @@
 }
 
 .rotate_right {
-  float: left;
+  float: right;
   -ms-transform: rotate(7deg); /* IE 9 */
   -webkit-transform: rotate(7deg); /* Safari */
   -moz-transform: rotate(7deg);
   -o-transform: rotate(7deg);
   transform: rotate(7deg);
-  position: absolute;
-  right: 290px;
 }
 
 .rotate_left {
-  float: left;
+  float: right;
   -ms-transform: rotate(-8deg); /* IE 9 */
   -webkit-transform: rotate(-8deg); /* Safari */
   -moz-transform: rotate(-8deg);
   -o-transform: rotate(-8deg);
   transform: rotate(-8deg);
-  position: absolute;
-  right: 0;
 }
 
 #caption {
