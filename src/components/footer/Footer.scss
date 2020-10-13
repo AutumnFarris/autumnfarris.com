@@ -4,16 +4,16 @@
   position: relative;
 }
 
-ul {
+.ul-footer {
   list-style-type: none;
   display: inline-block;
 }
 
-li {
+.li-footer {
   padding: 9px;
   float: left;
 }
 
-li:hover {
+.li-footer:hover {
   opacity: 0.7;
 }

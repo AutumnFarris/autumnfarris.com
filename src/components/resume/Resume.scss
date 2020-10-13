@@ -1,5 +1,4 @@
 $bodyFont: Merriweather;
-$bodyColor: #B4B4B4;
 $heading-oneFont: Arial;
 $heading-oneFontSize: 18px;
 $heading-oneFontWeight: bold;
@@ -7,11 +6,11 @@ $heading-oneColor: #2B7FCA;
 
 .page-wrapper {
   margin: 0px 100px;
-  font-color: $bodyColor;
   font-size: 18px;
-  border: 2px solid gold;
+  border: 2px solid lightgrey;
   border-radius: 19px;
-  background-image: url(./resume_paper.jpg);
+  background-image: url(./resume_paper_beige.jpg);
+  padding: 70px;
 }
 
 .row-style {
@@ -33,7 +32,7 @@ $heading-oneColor: #2B7FCA;
   flex-direction: column;
   flex-basis: 100%;
   flex: 2;
-  padding-left: 20px;
+  padding-right: 50px;
 }
 
 .second-column {
@@ -41,24 +40,30 @@ $heading-oneColor: #2B7FCA;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  padding-right: 20px;
+  font-family: Arial;
+}
+
+.ul-second-col {
+  list-style: none;
+  padding-left: 0pt;
+}
+
+li {
+  margin: 0 0 10px 0;
 }
 
 #resume-header {
   font-size: 54px;
   margin-top: 0px;
-  margin-bottom: 10px;
-  padding-top: 30px;
 }
 
 #subheader {
   font-size: 18px;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 #contact {
-  margin-bottom: 50px;
-  padding: 50px 20px 20px 0px;
+  padding: 30px 20px 30px 0px;
 }
 
 #heading-one {
