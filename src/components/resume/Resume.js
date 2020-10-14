@@ -5,24 +5,20 @@ import Photo from './resume_photo.jpeg';
 class Resume extends Component {
   render() {
     return (
-      <div class='page-wrapper'>
-        <div class='row'>
-          <div class='row-style'>
-            <div class='main-column'>
-              <div id='title'>
-                <div id='resume-header'><b>Autumn Farris</b>
-                </div>
-                  <div id='subheader'><i>Programmer, Web developer, Communicator!</i>
-                  </div>
-              </div>
-            <div id='summary'>
+    <div class='page-wrapper'>
+      <div class='container'>
+        <div class='row row-style'>
+          <div class='col-xs main-column'>
+            <div id='resume-header'><b>Autumn Farris</b>
+            </div>
+            <div id='subheader'><i>Programmer, Web developer, Communicator!</i>
+            </div>
               <div id='heading-one'>
                 <p>SUMMARY</p>
               </div>
                 <p>Ambitious clean code developer who thrives on expanding < br/>
                 knowledge and skillsets in both the professional and personal
                 fields.</p>
-            </div>
               <div id='heading-one'>
                 <p>EXPERIENCE</p>
               </div>
@@ -93,7 +89,8 @@ class Resume extends Component {
                 <p>Update company website</p>
                 <p><b>Raised $13,000 for silent auction (2017) –– Surpassed goal by $10,000</b></p>
             </div>
-              <div class='second-column'>
+
+              <div class='col-xs second-column'>
                 <div id='contact'>
                   <p id='phone-number'>+1 (417) 350-2445</p>
                   <br />
@@ -141,13 +138,15 @@ class Resume extends Component {
                       <li>12 mile bicycle ride supporting victims of HIV/AIDS</li>
                     </ul>
                     <br />
-                <div id='resume-photo'>
-                  <img src={Photo} alt="Resume" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  <img class= "resumephoto" src={Photo} alt="Resume" />
                 </div>
               </div>
             </div>
           </div>
-        </div>
     );
   }
 }

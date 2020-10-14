@@ -9,7 +9,7 @@ $heading-oneColor: #2B7FCA;
   font-size: 18px;
   border: 2px solid lightgrey;
   border-radius: 19px;
-  background-image: url(./resume_paper_beige.jpg);
+  background-image: url(./resume_paper_cream.jpg);
   padding: 70px;
 }
 
@@ -20,10 +20,10 @@ $heading-oneColor: #2B7FCA;
   width: 100%;
 }
 
-#resume-photo {
+.resumephoto {
+  border-radius: 25px;
   max-width: 100%;
   height: auto;
-  margin-left: 7%;
   padding: 20px;
 }
 

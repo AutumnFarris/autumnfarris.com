@@ -9,7 +9,7 @@ const NewZealand = () => {
 
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm">
             <div id="location-header">
               <h1>8 Weeks in New Zealand</h1>
             </div>
@@ -17,7 +17,7 @@ const NewZealand = () => {
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm">
           <br />
           <br />
             <h6>
@@ -46,7 +46,7 @@ const NewZealand = () => {
            <br />
 
           <div class="row">
-            <div class="col">
+            <div class="col-sm">
               <div class="location-polaroids rotate_right">
                 <img id="location-images" src={MtRuapehu} alt="Mt. Ruapehu" />
                 <p id="caption">Mt. Ruapehu</p>
