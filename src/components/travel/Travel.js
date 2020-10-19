@@ -21,6 +21,10 @@ const Travel = () => {
             <TravelBlog />
           </Route>
 
+        componentDidMount() {
+          window.scrollTo(0, 0)
+        }
+
         </Switch>
       </div>
           );

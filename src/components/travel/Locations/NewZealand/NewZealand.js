@@ -12,8 +12,10 @@ import LakePukaki from './NewZealandPhotos/LakePukaki.jpg';
 import MtCook from './NewZealandPhotos/MtCook.jpg';
 import AbelTasman from './NewZealandPhotos/AbelTasman.jpg';
 import Church from './NewZealandPhotos/Church.jpg';
+import { Link, useRouteMatch } from "react-router-dom";
 
 const NewZealand = () => {
+  let match = useRouteMatch();
     return (
 
     <div class="container">
@@ -161,16 +163,16 @@ const NewZealand = () => {
               <div class="p-3">
                 <h4 class="font-italic">Travels</h4>
                 <ol class="list-unstyled mb-0">
-                  <li><a href="#">Gettysburg 200?</a></li>
-                  <li><a href="#">London 2009</a></li>
-                  <li><a href="#">Paris 2009, 2015, & 2018</a></li>
-                  <li><a href="#">Belgium 2015</a></li>
-                  <li><a href="#">Czech Republic 2016</a></li>
-                  <li><a href="#">Italy 2016</a></li>
-                  <li><a href="#">Germany 2016 & 2018</a></li>
-                  <li><a href="#">Austria 2016</a></li>
-                  <li><a href="#">Australia 2018</a></li>
-                  <li><a href="#">New Zealand 2018</a></li>
+                  <li><Link to={`./Gettysburg`} style={{ textDecoration: 'none' }}>Gettysburg 200?</Link></li>
+                  <li><Link to={`./London`} style={{ textDecoration: 'none' }}>London 2009</Link></li>
+                  <li><Link to={`./Paris`} style={{ textDecoration: 'none' }}>Paris 2009, 2015, & 2018</Link></li>
+                  <li><Link to={`./Belgium`} style={{ textDecoration: 'none' }}>Belgium 2015</Link></li>
+                  <li><Link to={`./Italy`} style={{ textDecoration: 'none' }}>Italy 2016</Link></li>
+                  <li><Link to={`./CzechRepublic`} style={{ textDecoration: 'none' }}>Czech Republic 2016</Link></li>
+                  <li><Link to={`./Germany`} style={{ textDecoration: 'none' }}>Germany 2016 & 2018</Link></li>
+                  <li><Link to={`./Austria`} style={{ textDecoration: 'none' }}>Austria 2016</Link></li>
+                  <li><Link to={`./Australia`} style={{ textDecoration: 'none' }}>Australia 2018</Link></li>
+                  <li><Link to={`./NewZealand`} style={{ textDecoration: 'none' }}>New Zealand 2018</Link></li>
                 </ol>
               </div>
 

@@ -1,15 +1,9 @@
 import React from 'react';
 import '../Locations.scss';
-import ThreeSisters from './AustraliaPhotos/ThreeSisters.jpg';
-import BlueMountains from './AustraliaPhotos/BlueMountains.jpeg';
-import BondiBeach from './AustraliaPhotos/BondiBeach.jpg';
-import Hiking from './AustraliaPhotos/Hiking.jpeg';
-import KangarooSteak from './AustraliaPhotos/KangarooSteak.jpg';
-import AustraliaPassport from './AustraliaPhotos/AustraliaPassport.jpeg';
 
 import { Link, useRouteMatch } from 'react-router-dom';
 
-const Australia = () => {
+const CzechRepublic = () => {
   let match = useRouteMatch();
     return (
 
@@ -23,7 +17,7 @@ const Australia = () => {
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={BlueMountains} alt="Blue Mountains" />
+        <img id="main-image" src={#} alt="Blue Mountains" />
       </div>
 
       <main role="main" class="container">
@@ -38,13 +32,11 @@ const Australia = () => {
                   <p class="blog-post-meta">June 9-12, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={BondiBeach} alt="Bondi Beach" />
+                    <img class="blog-photo" src={#} alt="Bondi Beach" />
                       <figcaption class="blog-photo-caption">Bondi Beach</figcaption>
                   </figure>
 
-                  <p>A trip to Sydney wouldn't be complete without checking out the famous Bondi Beach!</p>
-                  <p>This picture was taken at sunrise where I enjoyed a breakfast sandwich and a hot cup of coffee.  Many of the locals came out to catch the waves, walk their dog, or fancy a morning jog in the wee hours of what is winter for that part of the world.</p>
-                  <p>I also enjoyed walking up the steps of the Opera House, exploring the city on foot, and trying out delicious kangaroo steak!</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                 </div>
 
@@ -54,17 +46,11 @@ const Australia = () => {
                   <p class="blog-post-meta">June 11, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Hiking} alt="Hiking" />
-                      <figcaption class="blog-photo-caption">Hiking in the Blue Mountains</figcaption>
+                    <img class="blog-photo" src={#} alt="Blue Mountains" />
+                      <figcaption class="blog-photo-caption">Blue Mountains</figcaption>
                   </figure>
 
-                  <p>A few hours on a train will take you from Sydney to the end of the line at Katoomba Station where you can hike the Blue Mountains of New South Wales. An easy day trip from the city gets you out into beautiful scenery and a chance to really stretch out your legs.</p>
-                  <p>Pictured below are the <a href="https://www.bluemts.com.au/info/thingstodo/threesisters/" target="_blank" >Three Sisters</a>, an unusual rock formation of the Blue Mountains.</p>
-
-                  <figure class="figure">
-                    <img class="blog-photo" src={ThreeSisters} alt="The Three Sisters" />
-                      <figcaption class="blog-photo-caption">The Three Sisters</figcaption>
-                  </figure>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                   <hr />
 
@@ -117,12 +103,12 @@ const Australia = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={KangarooSteak} alt="Kangaroo Steak" />
-                  <p id="caption">Kangaroo Steak</p>
+                  <img id="location-images" src={#} alt="The Three Sisters" />
+                  <p id="caption">The Three Sisters</p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={AustraliaPassport} alt="Passport" />
-                  <p id="caption">One Way to Australia!</p>
+                  <img id="location-images" src={#} alt="Bondi Beach" />
+                  <p id="caption">Bondi Beach</p>
                 </div>
               </div>
             </div>
@@ -133,4 +119,4 @@ const Australia = () => {
     );
 }
 
-export default Australia;
+export default CzechRepublic;
