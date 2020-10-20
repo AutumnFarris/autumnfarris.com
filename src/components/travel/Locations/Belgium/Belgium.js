@@ -1,10 +1,9 @@
 import React from 'react';
 import '../Locations.scss';
-import Czech from './CzechRepublicPhotos/Czech.jpeg';
 
 import { Link, useRouteMatch } from 'react-router-dom';
 
-const CzechRepublic = () => {
+const Belgium = () => {
   let match = useRouteMatch();
     return (
 
@@ -12,13 +11,13 @@ const CzechRepublic = () => {
         <header class="blog-header py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col text-center">
-              <h1 class="blog-header-logo text-dark">A few days in Czech Republic</h1>
+              <h1 class="blog-header-logo text-dark">72 Hours in Australia</h1>
             </div>
           </div>
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={Czech} alt="Blue Mountains" />
+        <img id="main-image" src={} alt="Blue Mountains" />
       </div>
 
       <main role="main" class="container">
@@ -33,7 +32,7 @@ const CzechRepublic = () => {
                   <p class="blog-post-meta">June 9-12, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Czech} alt="" />
+                    <img class="blog-photo" src={} alt="" />
                       <figcaption class="blog-photo-caption"></figcaption>
                   </figure>
 
@@ -47,7 +46,7 @@ const CzechRepublic = () => {
                   <p class="blog-post-meta">June 11, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Czech} alt="" />
+                    <img class="blog-photo" src={} alt="" />
                       <figcaption class="blog-photo-caption"></figcaption>
                   </figure>
 
@@ -104,11 +103,11 @@ const CzechRepublic = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={Czech} alt="" />
+                  <img id="location-images" src={} alt="" />
                   <p id="caption"></p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={Czech} alt="" />
+                  <img id="location-images" src={} alt="" />
                   <p id="caption"></p>
                 </div>
               </div>
@@ -120,4 +119,4 @@ const CzechRepublic = () => {
     );
 }
 
-export default CzechRepublic;
+export default Belgium;
