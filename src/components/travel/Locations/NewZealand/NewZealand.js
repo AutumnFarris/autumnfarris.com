@@ -83,8 +83,9 @@ const NewZealand = () => {
               </figure>
 
                 <hr />
+                <br />
                 <h3>Water Touch Bungy Jumping in Taupo</h3>
-
+                <br />
               <figure class="figure">
                 <img src={BungyJumping} class="rounded float-left vertical-photo" alt="Bungy Jumping" />
               </figure>

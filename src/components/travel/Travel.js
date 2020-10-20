@@ -2,6 +2,7 @@ import React from 'react';
 import TravelBlog from "./TravelBlog"
 import NewZealand from './Locations/NewZealand/NewZealand';
 import Australia from './Locations/Australia/Australia';
+import Italy from './Locations/Italy/Italy';
 import { Route, Switch, useRouteMatch } from "react-router-dom"
 
 const Travel = () => {
@@ -16,6 +17,9 @@ const Travel = () => {
           </Route>
           <Route path={`${match.path}/Australia`}>
             <Australia />
+          </Route>
+          <Route path={`${match.path}/Italy`}>
+            <Italy />
           </Route>
           <Route>
             <TravelBlog />
