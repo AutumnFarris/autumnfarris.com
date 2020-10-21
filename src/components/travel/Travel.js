@@ -20,7 +20,7 @@ const Travel = () => {
             <Australia />
           </Route>
           <Route path={`${match.path}/CzechRepublic`}>
-            <Italy />
+            <CzechRepublic />
           </Route>
           <Route path={`${match.path}/Italy`}>
             <Italy />
