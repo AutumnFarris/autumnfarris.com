@@ -12,10 +12,9 @@ import LakePukaki from './NewZealandPhotos/LakePukaki.jpg';
 import MtCook from './NewZealandPhotos/MtCook.jpg';
 import AbelTasman from './NewZealandPhotos/AbelTasman.jpg';
 import Church from './NewZealandPhotos/Church.jpg';
-import { Link, useRouteMatch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NewZealand = () => {
-  let match = useRouteMatch();
     return (
 
     <div class="container">

@@ -13,7 +13,6 @@ import Pizza from './ItalyPhotos/Pizza.jpeg';
 import { Link, useRouteMatch } from 'react-router-dom';
 
 const Italy = () => {
-  let match = useRouteMatch();
     return (
 
       <div class="container">
@@ -46,7 +45,7 @@ const Italy = () => {
                     <figcaption class="blog-photo-caption">Boarding Pass</figcaption>
                 </figure>
 
-                <p>We had only a few days before we were due to be in Prague for the VBT family bike trip so of course we had to explore all things that is Rome in less than 48 hours. Jetlagged and exhausted we managed to cross a few things off the list with the aid of Italian pizza, espressso shots, and wine along the way!</p>
+                <p>We had only a few days before we were due to be in Prague for the <a href="https://www.vbt.com/?utm_source=googles&utm_medium=cpc&utm_campaign=bcm_vbt_pure%20brand_ps_br&utm_term=vbt%20bike&cid=BCM_VBT_Pure%20Brand_PS_Branded&ag=VBT_Phrase&pmf=GOOGLE&kw=vbt%20bike&gclid=Cj0KCQjwuL_8BRCXARIsAGiC51B2qwbM-hvAVr0WAlqyI-bjy6KmPSKrh33VyZ6mVNguSEDchq-aeQYaAuR1EALw_wcB&gclsrc=aw.ds" target="_blank"> VBT</a> family bike trip so of course we had to explore all things that is Rome in less than 48 hours. Jetlagged and exhausted we managed to cross a few things off the list with the aid of Italian pizza, espressso shots, and wine along the way!</p>
                 <p>What we saw:</p>
                 <ul>
                   <li>The Colosseum</li>

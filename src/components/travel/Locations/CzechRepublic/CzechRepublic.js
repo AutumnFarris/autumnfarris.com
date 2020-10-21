@@ -1,11 +1,16 @@
 import React from 'react';
 import '../Locations.scss';
 import Czech from './CzechRepublicPhotos/Czech.jpeg';
+import CeskyKrumlov from './CzechRepublicPhotos/CeskyKrumlov.jpeg';
+import Family from './CzechRepublicPhotos/Family.jpeg';
+import House from './CzechRepublicPhotos/House.jpeg';
+import Hotel from './CzechRepublicPhotos/Hotel.jpeg';
+import Prague from './CzechRepublicPhotos/Prague.jpeg';
+import Map from './CzechRepublicPhotos/Map.jpg';
 
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const CzechRepublic = () => {
-  let match = useRouteMatch();
     return (
 
       <div class="container">
@@ -18,7 +23,7 @@ const CzechRepublic = () => {
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={Czech} alt="Blue Mountains" />
+        <img id="main-image" src={CeskyKrumlov} alt="Czech Republic" />
       </div>
 
       <main role="main" class="container">
@@ -33,8 +38,8 @@ const CzechRepublic = () => {
                   <p class="blog-post-meta">June 9-12, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Czech} alt="" />
-                      <figcaption class="blog-photo-caption"></figcaption>
+                    <img class="blog-photo" src={Czech} alt="Cesky Krumlov" />
+                      <figcaption class="blog-photo-caption">Cesky Krumlov</figcaption>
                   </figure>
 
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -104,12 +109,12 @@ const CzechRepublic = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={Czech} alt="" />
-                  <p id="caption"></p>
+                  <img id="location-images" src={Prague} alt="Prague" />
+                  <p id="caption">Prague Riverfront</p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={Czech} alt="" />
-                  <p id="caption"></p>
+                  <img id="location-images" src={House} alt="House" />
+                  <p id="caption">A Family Home</p>
                 </div>
               </div>
             </div>

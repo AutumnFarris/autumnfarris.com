@@ -4,7 +4,6 @@ import '../Locations.scss';
 import { Link, useRouteMatch } from 'react-router-dom';
 
 const France = () => {
-  let match = useRouteMatch();
     return (
 
       <div class="container">

@@ -7,10 +7,9 @@ import Hiking from './AustraliaPhotos/Hiking.jpeg';
 import KangarooSteak from './AustraliaPhotos/KangarooSteak.jpg';
 import AustraliaPassport from './AustraliaPhotos/AustraliaPassport.jpeg';
 
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Australia = () => {
-  let match = useRouteMatch();
     return (
 
       <div class="container">
