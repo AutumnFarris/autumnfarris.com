@@ -7,6 +7,9 @@ import House from './CzechRepublicPhotos/House.jpeg';
 import Hotel from './CzechRepublicPhotos/Hotel.jpeg';
 import Prague from './CzechRepublicPhotos/Prague.jpeg';
 import Map from './CzechRepublicPhotos/Map.jpg';
+import Rain from './CzechRepublicPhotos/Rain.jpeg';
+import Sisters from './CzechRepublicPhotos/Sisters.jpeg';
+import TrainTracks from './CzechRepublicPhotos/TrainTracks.jpeg';
 
 import { Link } from 'react-router-dom';
 
@@ -34,33 +37,66 @@ const CzechRepublic = () => {
                 </h3>
 
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Sydney</h2>
-                  <p class="blog-post-meta">June 9-12, 2018</p>
+                  <h2 class="blog-post-title">VBT Biking</h2>
+                  <p><a href="https://www.vbt.com/about/discover-vbt/" target="_blank">VBT</a> biking offers a fun way to explore areas of different countries via bicycle while being guided by a local.  It's a chance to escape touristy capitals and experience areas off the beaten path. </p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Czech} alt="Cesky Krumlov" />
-                      <figcaption class="blog-photo-caption">Cesky Krumlov</figcaption>
+                    <img class="blog-photo" src={Map} alt="Map" />
+                      <figcaption class="blog-photo-caption">Our bike path through 3 countries.</figcaption>
                   </figure>
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                 </div>
 
                 <hr />
+
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Blue Mountains</h2>
-                  <p class="blog-post-meta">June 11, 2018</p>
+                  <h2 class="blog-post-title">Prague & Český Krumlov</h2>
+                  <p class="blog-post-meta">May 17-18, 2016</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Czech} alt="" />
-                      <figcaption class="blog-photo-caption"></figcaption>
+                    <img class="blog-photo" src={Prague} alt="Prague" />
+                      <figcaption class="blog-photo-caption">Prague Riverfront</figcaption>
                   </figure>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Our trip began with meeting the other members of our riding group, about 15 others, in Prague the capital of the Czech Republic. From there we were shuttled a few hours away to Český Krumlov, a very quaint and medieval town. We had a warm up ride and explored the area then dined on bohemian courses such as rabbit and pheasant. The trip my family and I chose to go on included biking through the Czech Republic, Germany, and Austria.</p>
 
-                  <hr />
+                  <br />
+
+                  <figure class="figure">
+                    <img class="blog-photo" src={Sisters} alt="Sisters" />
+                      <figcaption class="blog-photo-caption">Sisters</figcaption>
+                  </figure>
+
+                  <p>The second day included biking through tranquil countryside, enjoying the scenery and eating local food.</p>
 
                 </div>
+
+                <hr />
+
+                <div class="blog-post">
+                  <h2 class="blog-post-title">Crossing the Border into Germany</h2>
+                  <p class="blog-post-meta">May 19, 2016</p>
+
+                  <figure class="figure">
+                    <img class="vertical-photo" src={TrainTracks} alt="Train Tracks" />
+                      <figcaption class="blog-photo-caption">Šumava National Park</figcaption>
+                  </figure>
+
+                  <p>My favorite day of the trip was biking across the border into Germany via the Šumava National Park. We began the 24 mile trip through the bohemian forest by following an old train track that wound in and out of our path. The woodlands was extremely peaceful and we didn't see another soul the entire time.</p>
+                  <p>Around midday however we were caught in a rain storm and had to finish the rest of the trip biking through a steady downpour. Ending at a tavern we were cold and soaking wet but luckily they served hot soup and mulled wine. Nothing had ever tasted so good!!</p>
+                  <nav class="blog-pagination">
+                    <a class="btn btn-outline-primary" href="./Germany">To Germany</a>
+                  </nav>
+                  <br />
+
+                  <figure class="figure">
+                    <img class="vertical-photo" src={Rain} alt="Rainy Day" />
+                      <figcaption class="blog-photo-caption">Caught in a rain storm</figcaption>
+                  </figure>
+
+                </div>
+
+                <hr />
 
                 <nav class="blog-pagination">
                   <a class="btn btn-outline-primary" href="/">Home</a>
@@ -71,8 +107,8 @@ const CzechRepublic = () => {
 
               <aside class="col-md-4 blog-sidebar">
                 <div class="p-3 mb-3 bg-light rounded">
-                  <h4 class="font-italic">New South Wales, AU</h4>
-                  <p class="mb-0">Pictured above, the Blue Mountains located just northwest of Sydney.</p>
+                  <h4 class="font-italic">Český Krumlov, CZ</h4>
+                  <p class="mb-0">Pictured above, the small town of Český Krumlov located in the South Bohemia region of the Czech Republic.</p>
                 </div>
 
                 <div class="p-3">
@@ -109,8 +145,8 @@ const CzechRepublic = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={Prague} alt="Prague" />
-                  <p id="caption">Prague Riverfront</p>
+                  <img id="location-images" src={Hotel} alt="Hotel" />
+                  <p id="caption">Our Hotel Room</p>
                 </div>
                 <div class="location-polaroids rotate_left">
                   <img id="location-images" src={House} alt="House" />

@@ -92,7 +92,7 @@ const Italy = () => {
 
                   <p>Now off to Prague to join the rest of the family, addio Italia!</p>
                   <nav class="blog-pagination">
-                    <a class="btn btn-outline-primary" href="/Travel">The Czech Republic</a>
+                    <a class="btn btn-outline-primary" href="./CzechRepublic">The Czech Republic</a>
                   </nav>
 
                   <br />

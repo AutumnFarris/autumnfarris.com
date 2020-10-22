@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Locations.scss';
+import Bridge from './GermanyPhotos/Bridge.jpeg';
 
 import { Link, useRouteMatch } from 'react-router-dom';
 
@@ -10,13 +11,13 @@ const Germany = () => {
         <header class="blog-header py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col text-center">
-              <h1 class="blog-header-logo text-dark">72 Hours in Australia</h1>
+              <h1 class="blog-header-logo text-dark">A few Days in Germany</h1>
             </div>
           </div>
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={} alt="Blue Mountains" />
+        <img id="main-image" src={Bridge} alt="" />
       </div>
 
       <main role="main" class="container">
@@ -31,7 +32,7 @@ const Germany = () => {
                   <p class="blog-post-meta">June 9-12, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={} alt="" />
+                    <img class="blog-photo" src={Bridge} alt="" />
                       <figcaption class="blog-photo-caption"></figcaption>
                   </figure>
 
@@ -45,7 +46,7 @@ const Germany = () => {
                   <p class="blog-post-meta">June 11, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={} alt="" />
+                    <img class="blog-photo" src={Bridge} alt="" />
                       <figcaption class="blog-photo-caption"></figcaption>
                   </figure>
 
@@ -102,11 +103,11 @@ const Germany = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={} alt="" />
+                  <img id="location-images" src={Bridge} alt="" />
                   <p id="caption"></p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={} alt="" />
+                  <img id="location-images" src={Bridge} alt="" />
                   <p id="caption"></p>
                 </div>
               </div>
