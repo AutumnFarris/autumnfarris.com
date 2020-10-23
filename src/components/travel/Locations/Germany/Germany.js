@@ -1,6 +1,11 @@
 import React from 'react';
 import '../Locations.scss';
 import Bridge from './GermanyPhotos/Bridge.jpeg';
+import Hcastle from './GermanyPhotos/Hcastle.jpeg';
+import Monastary from './GermanyPhotos/Monastary.jpeg';
+import Ncastle from './GermanyPhotos/Ncastle.jpeg';
+import SistersGermany from './GermanyPhotos/SistersGermany.jpeg';
+import Window from './GermanyPhotos/Window.jpeg';
 
 import { Link, useRouteMatch } from 'react-router-dom';
 
@@ -11,13 +16,13 @@ const Germany = () => {
         <header class="blog-header py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col text-center">
-              <h1 class="blog-header-logo text-dark">A few Days in Germany</h1>
+              <h1 class="blog-header-logo text-dark">Germany 2016 & 2018</h1>
             </div>
           </div>
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={Bridge} alt="" />
+        <img id="main-image" src={SistersGermany} alt="Germany" />
       </div>
 
       <main role="main" class="container">
@@ -28,12 +33,12 @@ const Germany = () => {
                 </h3>
 
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Sydney</h2>
+                  <h2 class="blog-post-title">Germany 2016</h2>
                   <p class="blog-post-meta">June 9-12, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Bridge} alt="" />
-                      <figcaption class="blog-photo-caption"></figcaption>
+                    <img class="blog-photo" src={Ncastle} alt="Neuschwanstein Castle" />
+                      <figcaption class="blog-photo-caption">Neuschwanstein Castle</figcaption>
                   </figure>
 
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -42,7 +47,7 @@ const Germany = () => {
 
                 <hr />
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Blue Mountains</h2>
+                  <h2 class="blog-post-title">Germany 2018</h2>
                   <p class="blog-post-meta">June 11, 2018</p>
 
                   <figure class="figure">
@@ -103,7 +108,7 @@ const Germany = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={Bridge} alt="" />
+                  <img id="location-images" src={Window} alt="" />
                   <p id="caption"></p>
                 </div>
                 <div class="location-polaroids rotate_left">
