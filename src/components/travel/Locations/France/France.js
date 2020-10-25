@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Locations.scss';
 
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const France = () => {
     return (

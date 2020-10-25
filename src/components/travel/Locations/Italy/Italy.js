@@ -10,7 +10,7 @@ import Pantheon from './ItalyPhotos/Pantheon.jpg';
 import PantheonSide from './ItalyPhotos/PantheonSide.jpeg';
 import Pizza from './ItalyPhotos/Pizza.jpeg';
 
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Italy = () => {
     return (
@@ -92,7 +92,7 @@ const Italy = () => {
 
                   <p>Now off to Prague to join the rest of the family, addio Italia!</p>
                   <nav class="blog-pagination">
-                    <a class="btn btn-outline-primary" href="./CzechRepublic">The Czech Republic</a>
+                    <a class="btn btn-outline-primary" href="./CzechRepublic">To the Czech Republic</a>
                   </nav>
 
                   <br />

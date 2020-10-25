@@ -98,10 +98,12 @@ let match = useRouteMatch();
     </div>
     <div class="col-4">
       <div class="img-wrap">
-        <img id="travel-blog-img" src={Austria} alt="Austria" />
-          <div id="travel-blog-polaroid">
-            <p class="img-description">Austria</p>
-          </div>
+        <Link to={`${match.url}/Austria`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={Austria} alt="Austria" />
+            <div id="travel-blog-polaroid">
+              <p class="img-description">Austria</p>
+            </div>
+        </Link>
       </div>
     </div>
   </div>

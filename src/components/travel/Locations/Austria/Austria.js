@@ -1,23 +1,34 @@
 import React from 'react';
 import '../Locations.scss';
+import Map from './AustriaPhotos/Map.jpg';
+import Barge from './AustriaPhotos/Barge.jpeg';
+import Church from './AustriaPhotos/Church.jpeg';
+import Melk from './AustriaPhotos/Melk.jpeg';
+import Abbey from './AustriaPhotos/Abbey.jpeg';
+import OnTop from './AustriaPhotos/OnTop.jpeg';
+import StMichaels from './AustriaPhotos/StMichaels.jpeg';
+import Book from './AustriaPhotos/Book.jpeg';
+import Library from './AustriaPhotos/Library.jpeg';
+import MariaTaferl from './AustriaPhotos/MariaTaferl.jpeg';
+import SistersAustria from './AustriaPhotos/SistersAustria.jpeg';
 
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Austria = () => {
-  let match = useRouteMatch();
+
     return (
 
       <div class="container">
         <header class="blog-header py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col text-center">
-              <h1 class="blog-header-logo text-dark">72 Hours in Australia</h1>
+              <h1 class="blog-header-logo text-dark">A few days in Austria</h1>
             </div>
           </div>
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={} alt="Blue Mountains" />
+        <img id="main-image" src={SistersAustria} alt="Sisters" />
       </div>
 
       <main role="main" class="container">
@@ -28,29 +39,66 @@ const Austria = () => {
                 </h3>
 
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Sydney</h2>
-                  <p class="blog-post-meta">June 9-12, 2018</p>
+                  <h2 class="blog-post-title">VBT Biking</h2>
+                  <p><a href="https://www.vbt.com/about/discover-vbt/" target="_blank">VBT</a> biking offers a fun way to explore areas of different countries via bicycle while being guided by a local.  It's a chance to escape touristy capitals and experience areas off the beaten path. </p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={} alt="" />
-                      <figcaption class="blog-photo-caption"></figcaption>
+                    <img class="blog-photo" src={Map} alt="Map" />
+                      <figcaption class="blog-photo-caption">Our bike path through 3 countries.</figcaption>
                   </figure>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="blog-post">
+                  <h2 class="blog-post-title">St. Michael's, Maria Taferl, and the Danube</h2>
+                  <p class="blog-post-meta">May, 2016</p>
+
+                  <figure class="figure">
+                    <img class="vertical-photo" src={StMichaels} alt="St. Michael's" />
+                      <figcaption class="blog-photo-caption">St. Michael's Church</figcaption>
+                  </figure>
+
+                  <p>Austria revealed many pleasant rolling hills and vineyards while also holding an abundance of old abbeys and cathedrals. One stop we made was at St. Michael's church in Weissenkirchen. This church dates all the way back to 987! </p>
+
+                  <br />
+
+                  <figure class="figure">
+                    <img class="blog-photo" src={MariaTaferl} alt="Maria Taferl" />
+                      <figcaption class="blog-photo-caption">Inside Maria Taferl</figcaption>
+                  </figure>
+
+                  <p>Although rather plain on the outside, once you step inside the Maria Taferl church you see exquisite detail and ample amounts of gold leaf.</p>
+
+                  <br />
+
+                  <figure class="figure">
+                    <img class="blog-photo" src={Barge} alt="Barge" />
+                      <figcaption class="blog-photo-caption">Sailing the Danube</figcaption>
+                  </figure>
+
+                  <p> Speeding up our journey, we gained a bit of ground by taking a break from pedalling and sailing down the river Danube, the second biggest river in Europe that also divides the border between Austria and Germany.</p>
 
                 </div>
 
                 <hr />
+
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Blue Mountains</h2>
-                  <p class="blog-post-meta">June 11, 2018</p>
+                  <h2 class="blog-post-title">Melk and the Benedictine Abbey</h2>
+                  <p class="blog-post-meta">May, 2016</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={} alt="" />
-                      <figcaption class="blog-photo-caption"></figcaption>
+                    <img class="blog-photo" src={Abbey} alt="Abbey" />
+                      <figcaption class="blog-photo-caption">Melk Abbey</figcaption>
                   </figure>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p> We enjoyed visiting many churches and drinking local wine as well as exploring narrow cobblestone streets in towns such as Melk. Located inside this burough is the magnificent Benedictine monastery, the Melk Abbey.  We got a chance to explore some of the many courtyards and tremendous library containing over 90,000 rare voulmes and manuscripts.  This concluded our journey after spending a few days exploring the countryside and we were shuttled back to Vienna, the capital of Austria to make our departure back to the U.S.</p>
+
+                  <br />
+
+                  <figure class="figure">
+                    <img class="vertical-photo" src={Library} alt="Library" />
+                      <figcaption class="blog-photo-caption">A small section of the library</figcaption>
+                  </figure>
 
                   <hr />
 
@@ -65,8 +113,8 @@ const Austria = () => {
 
               <aside class="col-md-4 blog-sidebar">
                 <div class="p-3 mb-3 bg-light rounded">
-                  <h4 class="font-italic">New South Wales, AU</h4>
-                  <p class="mb-0">Pictured above, the Blue Mountains located just northwest of Sydney.</p>
+                  <h4 class="font-italic">Nibelungengau, AT</h4>
+                  <p class="mb-0">Pictured above, gazing upon the Maria Taferl church with my sister.</p>
                 </div>
 
                 <div class="p-3">
@@ -103,12 +151,12 @@ const Austria = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={} alt="" />
-                  <p id="caption"></p>
+                  <img id="location-images" src={OnTop} alt="St. Michaels" />
+                  <p id="caption">St. Michael's</p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={} alt="" />
-                  <p id="caption"></p>
+                  <img id="location-images" src={Book} alt="Book" />
+                  <p id="caption">A rare manuscript</p>
                 </div>
               </div>
             </div>

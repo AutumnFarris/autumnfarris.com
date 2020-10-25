@@ -4,12 +4,12 @@ import Map from './GermanyPhotos/Map.jpg';
 import Bridge from './GermanyPhotos/Bridge.jpeg';
 import Hcastle from './GermanyPhotos/Hcastle.jpeg';
 import Ncastle from './GermanyPhotos/Ncastle.jpeg';
-import SistersGermany from './GermanyPhotos/SistersGermany.jpeg';
 import Window from './GermanyPhotos/Window.jpeg';
 import Biking from './GermanyPhotos/Biking.jpeg';
 import Family from './GermanyPhotos/Family.jpeg';
+import Castle from './GermanyPhotos/Castle.jpeg';
 
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Germany = () => {
     return (
@@ -24,7 +24,7 @@ const Germany = () => {
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={SistersGermany} alt="Germany" />
+        <img id="main-image" src={Castle} alt="Castle" />
       </div>
 
       <main role="main" class="container">
@@ -54,10 +54,10 @@ const Germany = () => {
                       <figcaption class="blog-photo-caption">Biking along the Inn</figcaption>
                   </figure>
 
-                  <p>Once in Germany on our bike trip we saw many old churches and explored towns such as Passau. We biked along a river called Inn and then to gain access to Austria we biked across the border via a bridge named Mariensteg.</p>
+                  <p>Once in Germany during the bike trip we saw many old churches and explored towns such as Passau. This bohemia area of the country makes you feel like you stepped back into Medieval times.  We biked along a river called Inn and then to gain access to Austria we pedalled across the border via a bridge named Mariensteg.</p>
 
                   <nav class="blog-pagination">
-                    <a class="btn btn-outline-primary" href="./Germany">To Austria</a>
+                    <a class="btn btn-outline-primary" href="./Austria">To Austria</a>
                   </nav>
 
                   <br />
@@ -79,7 +79,9 @@ const Germany = () => {
                       <figcaption class="blog-photo-caption">Neuschwanstein Castle</figcaption>
                   </figure>
 
-                  <p>In January of 2018 I went on a trip to Europe with my father.  We spent much of the 10 day trip in Paris and then took a train to Germany to see the famous Neuschwanstein Castle and the nearby Hohenschwangau Castle.  Germany countryside is breathtaking and we were lucky to see the countryside during snowfall on our ride from Fussen to Frankfurt by train.</p>
+                  <p>In January of 2018 I went on a trip to Europe with my father.  We spent much of the 10 day trip in Paris and then took a train to Germany to see the famous Neuschwanstein Castle and the nearby Hohenschwangau Castle.</p>
+                  <p>Getting to Neuschwanstein Castle via public transportation was no simple feat! We took a train from Paris to the German town of Füssen. From Füssen our only option was a bus to the town of Hohenschwangau, the location of the castle. From there we had two choices, to hire a horse and carriage or to trek one mile up-hill to the fortress. We opted for the scenic trek!</p>
+                  <p>Germany is wonderfully breathtaking and we were even lucky to see the countryside during snowfall on our departure ride from Füssen to Frankfurt by train.</p>
 
                   <figure class="figure">
                     <img class="blog-photo" src={Hcastle} alt="Hohenschwangau Castle" />
@@ -99,8 +101,8 @@ const Germany = () => {
 
               <aside class="col-md-4 blog-sidebar">
                 <div class="p-3 mb-3 bg-light rounded">
-                  <h4 class="font-italic">, DE</h4>
-                  <p class="mb-0">Pictured above, my sister and I viewing a distant church.</p>
+                  <h4 class="font-italic">Along the River Inn, DE</h4>
+                  <p class="mb-0">Pictured above, Neuschwanstein Castle as viewed from Mary's Bridge. (2018)</p>
                 </div>
 
                 <div class="p-3">

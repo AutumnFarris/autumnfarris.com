@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Locations.scss';
-import Czech from './CzechRepublicPhotos/Czech.jpeg';
 import CeskyKrumlov from './CzechRepublicPhotos/CeskyKrumlov.jpeg';
 import House from './CzechRepublicPhotos/House.jpeg';
 import Hotel from './CzechRepublicPhotos/Hotel.jpeg';
