@@ -1,7 +1,17 @@
 import React from 'react';
 import '../Locations.scss';
+import Atomium from './BelgiumPhotos/Atomium.jpeg';
+import Beer from './BelgiumPhotos/Beer.jpeg';
+import Brugge from './BelgiumPhotos/Brugge.jpg';
+import Brussels from './BelgiumPhotos/Brussels.jpeg';
+import Elvis from './BelgiumPhotos/Elvis.jpeg';
+import InsideAtomium from './BelgiumPhotos/InsideAtomium.jpeg';
+import MannequinPis from './BelgiumPhotos/MannequinPis.jpeg';
+import Soldiers from './BelgiumPhotos/Soldiers.jpeg';
+import Street from './BelgiumPhotos/Street.jpeg';
+import Tips from './BelgiumPhotos/Tips.jpeg';
 
-import { Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Belgium = () => {
     return (
@@ -10,13 +20,13 @@ const Belgium = () => {
         <header class="blog-header py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col text-center">
-              <h1 class="blog-header-logo text-dark">72 Hours in Australia</h1>
+              <h1 class="blog-header-logo text-dark">Unexpected days in Belgium</h1>
             </div>
           </div>
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={} alt="Blue Mountains" />
+        <img id="main-image" src={Brussels} alt="Brussels" />
       </div>
 
       <main role="main" class="container">
@@ -27,29 +37,33 @@ const Belgium = () => {
                 </h3>
 
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Sydney</h2>
-                  <p class="blog-post-meta">June 9-12, 2018</p>
+                  <h2 class="blog-post-title">Brussels</h2>
+                  <p class="blog-post-meta">January, 2015</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={} alt="" />
+                    <img class="blog-photo" src={Brussels} alt="" />
                       <figcaption class="blog-photo-caption"></figcaption>
                   </figure>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Finding myself unexpectedly in a country I had never considered visiting, I was quite delighted in the culture, atmosphere, and fascinating history the capital and surrounding towns had to offer.</p>
+
+                  <p>Here I learned about Belgium's version of their involvement in World War II, the Mannequin Pis, and Trappist beer. I discovered my favorite beer, the Leffe Brune, and visited my first Planetarium.</p>
+
+                  <p>Admittedly it is now one of my favorite places I have travelled to!</p>
 
                 </div>
 
                 <hr />
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Blue Mountains</h2>
-                  <p class="blog-post-meta">June 11, 2018</p>
+                  <h2 class="blog-post-title">Brugge, Belgium</h2>
+                  <p class="blog-post-meta">January, 2015</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={} alt="" />
+                    <img class="blog-photo" src={Brussels} alt="" />
                       <figcaption class="blog-photo-caption"></figcaption>
                   </figure>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Exploring Brugge was truly delightful.  Of course on the train ride from Brussels there was just enough time to watch <a href="https://en.wikipedia.org/wiki/In_Bruges" target="_blank"><em>In Bruges</em></a></p>
 
                   <hr />
 
@@ -64,8 +78,8 @@ const Belgium = () => {
 
               <aside class="col-md-4 blog-sidebar">
                 <div class="p-3 mb-3 bg-light rounded">
-                  <h4 class="font-italic">New South Wales, AU</h4>
-                  <p class="mb-0">Pictured above, the Blue Mountains located just northwest of Sydney.</p>
+                  <h4 class="font-italic">Brussels, BE</h4>
+                  <p class="mb-0">Pictured above, .</p>
                 </div>
 
                 <div class="p-3">
@@ -102,12 +116,12 @@ const Belgium = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={} alt="" />
+                  <img id="location-images" src={Brussels} alt="" />
                   <p id="caption"></p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={} alt="" />
-                  <p id="caption"></p>
+                  <img id="location-images" src={InsideAtomium} alt="Inside the Atomium" />
+                  <p id="caption">Inside the Atomium</p>
                 </div>
               </div>
             </div>
