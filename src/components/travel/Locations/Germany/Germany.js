@@ -1,11 +1,13 @@
 import React from 'react';
 import '../Locations.scss';
+import Map from './GermanyPhotos/Map.jpg';
 import Bridge from './GermanyPhotos/Bridge.jpeg';
 import Hcastle from './GermanyPhotos/Hcastle.jpeg';
-import Monastary from './GermanyPhotos/Monastary.jpeg';
 import Ncastle from './GermanyPhotos/Ncastle.jpeg';
 import SistersGermany from './GermanyPhotos/SistersGermany.jpeg';
 import Window from './GermanyPhotos/Window.jpeg';
+import Biking from './GermanyPhotos/Biking.jpeg';
+import Family from './GermanyPhotos/Family.jpeg';
 
 import { Link, useRouteMatch } from 'react-router-dom';
 
@@ -33,29 +35,56 @@ const Germany = () => {
                 </h3>
 
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Germany 2016</h2>
-                  <p class="blog-post-meta">June 9-12, 2018</p>
+                  <h2 class="blog-post-title">VBT Biking</h2>
+                  <p><a href="https://www.vbt.com/about/discover-vbt/" target="_blank">VBT</a> biking offers a fun way to explore areas of different countries via bicycle while being guided by a local.  It's a chance to escape touristy capitals and experience areas off the beaten path. </p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Ncastle} alt="Neuschwanstein Castle" />
-                      <figcaption class="blog-photo-caption">Neuschwanstein Castle</figcaption>
+                    <img class="blog-photo" src={Map} alt="Map" />
+                      <figcaption class="blog-photo-caption">Our bike path through 3 countries.</figcaption>
                   </figure>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="blog-post">
+                  <h2 class="blog-post-title">Germany 2016</h2>
+                  <p class="blog-post-meta">May, 2016</p>
+
+                  <figure class="figure">
+                    <img class="blog-photo" src={Biking} alt="Biking" />
+                      <figcaption class="blog-photo-caption">Biking along the Inn</figcaption>
+                  </figure>
+
+                  <p>Once in Germany on our bike trip we saw many old churches and explored towns such as Passau. We biked along a river called Inn and then to gain access to Austria we biked across the border via a bridge named Mariensteg.</p>
+
+                  <nav class="blog-pagination">
+                    <a class="btn btn-outline-primary" href="./Germany">To Austria</a>
+                  </nav>
+
+                  <br />
+
+                  <figure class="figure">
+                    <img class="blog-photo" src={Family} alt="Family Photo" />
+                      <figcaption class="blog-photo-caption">Family Photo</figcaption>
+                  </figure>
 
                 </div>
 
                 <hr />
                 <div class="blog-post">
                   <h2 class="blog-post-title">Germany 2018</h2>
-                  <p class="blog-post-meta">June 11, 2018</p>
+                  <p class="blog-post-meta">January, 2018</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Bridge} alt="" />
-                      <figcaption class="blog-photo-caption"></figcaption>
+                    <img class="blog-photo" src={Ncastle} alt="Neuschwanstein Castle" />
+                      <figcaption class="blog-photo-caption">Neuschwanstein Castle</figcaption>
                   </figure>
 
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>In January of 2018 I went on a trip to Europe with my father.  We spent much of the 10 day trip in Paris and then took a train to Germany to see the famous Neuschwanstein Castle and the nearby Hohenschwangau Castle.  Germany countryside is breathtaking and we were lucky to see the countryside during snowfall on our ride from Fussen to Frankfurt by train.</p>
+
+                  <figure class="figure">
+                    <img class="blog-photo" src={Hcastle} alt="Hohenschwangau Castle" />
+                      <figcaption class="blog-photo-caption">Hohenschwangau Castle</figcaption>
+                  </figure>
 
                   <hr />
 
@@ -70,8 +99,8 @@ const Germany = () => {
 
               <aside class="col-md-4 blog-sidebar">
                 <div class="p-3 mb-3 bg-light rounded">
-                  <h4 class="font-italic">New South Wales, AU</h4>
-                  <p class="mb-0">Pictured above, the Blue Mountains located just northwest of Sydney.</p>
+                  <h4 class="font-italic">, DE</h4>
+                  <p class="mb-0">Pictured above, my sister and I viewing a distant church.</p>
                 </div>
 
                 <div class="p-3">
@@ -108,12 +137,12 @@ const Germany = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={Window} alt="" />
-                  <p id="caption"></p>
+                  <img id="location-images" src={Bridge} alt="Mariensteg Bridge" />
+                  <p id="caption">Mariensteg Bridge</p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={Bridge} alt="" />
-                  <p id="caption"></p>
+                  <img id="location-images" src={Window} alt="Castle Window" />
+                  <p id="caption">Castle Window View</p>
                 </div>
               </div>
             </div>

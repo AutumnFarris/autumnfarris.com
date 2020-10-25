@@ -2,7 +2,6 @@ import React from 'react';
 import '../Locations.scss';
 import Czech from './CzechRepublicPhotos/Czech.jpeg';
 import CeskyKrumlov from './CzechRepublicPhotos/CeskyKrumlov.jpeg';
-import Family from './CzechRepublicPhotos/Family.jpeg';
 import House from './CzechRepublicPhotos/House.jpeg';
 import Hotel from './CzechRepublicPhotos/Hotel.jpeg';
 import Prague from './CzechRepublicPhotos/Prague.jpeg';
@@ -84,9 +83,11 @@ const CzechRepublic = () => {
 
                   <p>My favorite day of the trip was biking across the border into Germany via the Šumava National Park. We began the 24 mile trip through the bohemian forest by following an old train track that wound in and out of our path. The woodlands was extremely peaceful and we didn't see another soul the entire time.</p>
                   <p>Around midday however we were caught in a rain storm and had to finish the rest of the trip biking through a steady downpour. Ending at a tavern we were cold and soaking wet but luckily they served hot soup and mulled wine. Nothing had ever tasted so good!!</p>
+
                   <nav class="blog-pagination">
                     <a class="btn btn-outline-primary" href="./Germany">To Germany</a>
                   </nav>
+
                   <br />
 
                   <figure class="figure">
