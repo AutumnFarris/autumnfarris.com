@@ -19,30 +19,28 @@ let match = useRouteMatch();
   <div class="row">
     <div class="col-4">
       <div class="img-wrap">
-        <Link to={`${match.url}/NewZealand`} style={{ textDecoration: 'none' }}>
-          <img id="travel-blog-img" src={NZ} alt="New Zealand" />
+        <Link to={`${match.url}/London`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={London} alt="London" />
             <div id="travel-blog-polaroid">
-              <p class="img-description">New Zealand</p>
+              <p class="img-description">London</p>
             </div>
         </Link>
       </div>
     </div>
     <div class="col-4">
       <div class="img-wrap">
-        <Link to={`${match.url}/Australia`} style={{ textDecoration: 'none' }}>
-          <img id="travel-blog-img" src={OperaHouse} alt="Australia" />
+          <img id="travel-blog-img" src={Paris} alt="Paris" />
             <div id="travel-blog-polaroid">
-              <p class="img-description">Australia</p>
+              <p class="img-description">Paris</p>
             </div>
-        </Link>
       </div>
     </div>
     <div class="col-4">
       <div class="img-wrap">
-        <Link to={`${match.url}/CzechRepublic`} style={{ textDecoration: 'none' }}>
-          <img id="travel-blog-img" src={CzechRepublic} alt="Czech Republic" />
+        <Link to={`${match.url}/Belgium`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={Belgium} alt="Belgium" />
             <div id="travel-blog-polaroid">
-              <p class="img-description">Czech Republic</p>
+              <p class="img-description">Belgium</p>
             </div>
         </Link>
       </div>
@@ -61,10 +59,12 @@ let match = useRouteMatch();
     </div>
     <div class="col-4">
       <div class="img-wrap">
-        <img id="travel-blog-img" src={Paris} alt="Paris" />
-          <div id="travel-blog-polaroid">
-            <p class="img-description">Paris</p>
-          </div>
+        <Link to={`${match.url}/CzechRepublic`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={CzechRepublic} alt="Czech Republic" />
+            <div id="travel-blog-polaroid">
+              <p class="img-description">Czech Republic</p>
+            </div>
+        </Link>
       </div>
     </div>
     <div class="col-4">
@@ -81,26 +81,6 @@ let match = useRouteMatch();
   <div class="row">
     <div class="col-4">
       <div class="img-wrap">
-        <Link to={`${match.url}/London`} style={{ textDecoration: 'none' }}>
-          <img id="travel-blog-img" src={London} alt="London" />
-            <div id="travel-blog-polaroid">
-              <p class="img-description">London</p>
-            </div>
-        </Link>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="img-wrap">
-        <Link to={`${match.url}/Belgium`} style={{ textDecoration: 'none' }}>
-          <img id="travel-blog-img" src={Belgium} alt="Belgium" />
-            <div id="travel-blog-polaroid">
-              <p class="img-description">Belgium</p>
-            </div>
-        </Link>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="img-wrap">
         <Link to={`${match.url}/Austria`} style={{ textDecoration: 'none' }}>
           <img id="travel-blog-img" src={Austria} alt="Austria" />
             <div id="travel-blog-polaroid">
@@ -109,8 +89,27 @@ let match = useRouteMatch();
         </Link>
       </div>
     </div>
+    <div class="col-4">
+      <div class="img-wrap">
+        <Link to={`${match.url}/Australia`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={OperaHouse} alt="Australia" />
+            <div id="travel-blog-polaroid">
+              <p class="img-description">Australia</p>
+            </div>
+        </Link>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="img-wrap">
+        <Link to={`${match.url}/NewZealand`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={NZ} alt="New Zealand" />
+            <div id="travel-blog-polaroid">
+              <p class="img-description">New Zealand</p>
+            </div>
+        </Link>
+      </div>
+    </div>
   </div>
-
 
 </div>
 );
