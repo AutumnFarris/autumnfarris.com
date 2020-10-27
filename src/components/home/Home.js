@@ -8,7 +8,7 @@ const home = () => {
             <h1 class="name">Hi, I'm Autumn</h1>
               <div class="line">
               </div>
-            <p id="subtitle">a web designer</p>
+            <p id="subtitle">a web developer</p>
           </div>
         </div>
     );

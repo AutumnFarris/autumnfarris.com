@@ -76,7 +76,7 @@ const Austria = () => {
                       <figcaption class="blog-photo-caption">Sailing the Danube</figcaption>
                   </figure>
 
-                  <p> Speeding up our journey, we gained a bit of ground by taking a break from pedalling and sailing down the river Danube, the second biggest river in Europe that also divides the border between Austria and Germany.</p>
+                  <p> Speeding up our journey, we gained a bit of ground by taking a break from pedalling by sailing down the river Danube, the second biggest river in Europe that also divides the border between Austria and Germany.</p>
 
                 </div>
 

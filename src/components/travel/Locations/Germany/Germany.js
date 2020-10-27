@@ -101,7 +101,7 @@ const Germany = () => {
 
               <aside class="col-md-4 blog-sidebar">
                 <div class="p-3 mb-3 bg-light rounded">
-                  <h4 class="font-italic">Along the River Inn, DE</h4>
+                  <h4 class="font-italic">Hohenschwangau, DE</h4>
                   <p class="mb-0">Pictured above, Neuschwanstein Castle as viewed from Mary's Bridge. (2018)</p>
                 </div>
 
