@@ -2,7 +2,6 @@ import React from 'react';
 import NZ from './photos/NZ.jpg';
 import OperaHouse from './photos/OperaHouse.JPG';
 import CzechRepublic from './photos/CzechRepublic.jpeg';
-import Gettysburg from './photos/Gettysburg.jpeg';
 import Austria from './photos/Austria.JPG';
 import London from './photos/London.JPG';
 import Germany from './photos/Germany.jpeg';
@@ -82,10 +81,12 @@ let match = useRouteMatch();
   <div class="row">
     <div class="col-4">
       <div class="img-wrap">
-        <img id="travel-blog-img" src={Gettysburg} alt="Gettysburg" />
-          <div id="travel-blog-polaroid">
-            <p class="img-description">Gettysburg</p>
-          </div>
+        <Link to={`${match.url}/London`} style={{ textDecoration: 'none' }}>
+          <img id="travel-blog-img" src={London} alt="London" />
+            <div id="travel-blog-polaroid">
+              <p class="img-description">London</p>
+            </div>
+        </Link>
       </div>
     </div>
     <div class="col-4">

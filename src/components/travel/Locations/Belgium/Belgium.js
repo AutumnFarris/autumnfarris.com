@@ -129,7 +129,6 @@ const Belgium = () => {
                 <div class="p-3">
                   <h4 class="font-italic">Travels</h4>
                   <ol class="list-unstyled mb-0">
-                    <li><Link to={`./Gettysburg`} style={{ textDecoration: 'none' }}>Gettysburg 200?</Link></li>
                     <li><Link to={`./London`} style={{ textDecoration: 'none' }}>London 2009</Link></li>
                     <li><Link to={`./Paris`} style={{ textDecoration: 'none' }}>Paris 2009, 2015, & 2018</Link></li>
                     <li><Link to={`./Belgium`} style={{ textDecoration: 'none' }}>Belgium 2015</Link></li>

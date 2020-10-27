@@ -1,28 +1,27 @@
 import React from 'react';
 import '../Locations.scss';
-import ThreeSisters from './AustraliaPhotos/ThreeSisters.jpg';
-import BlueMountains from './AustraliaPhotos/BlueMountains.jpeg';
-import BondiBeach from './AustraliaPhotos/BondiBeach.jpg';
-import Hiking from './AustraliaPhotos/Hiking.jpeg';
-import KangarooSteak from './AustraliaPhotos/KangarooSteak.jpg';
-import AustraliaPassport from './AustraliaPhotos/AustraliaPassport.jpeg';
-
+import BigBen from './LondonPhotos/BigBen.jpg';
+import Church from './LondonPhotos/Church.jpg';
+import Eurostar from './LondonPhotos/Eurostar.jpg';
+import InTheEye from './LondonPhotos/InTheEye.jpg';
+import LondonEye from './LondonPhotos/LondonEye.jpg';
+import Pod from './LondonPhotos/Pod.jpg';
 import { Link } from 'react-router-dom';
 
-const Australia = () => {
+const London = () => {
     return (
 
       <div class="container">
         <header class="blog-header py-1">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col text-center">
-              <h1 class="blog-header-logo text-dark">72 Hours in Australia</h1>
+              <h1 class="blog-header-logo text-dark">A few days in London</h1>
             </div>
           </div>
         </header>
 
       <div class="jumbotron p-3 p-md-0">
-        <img id="main-image" src={BlueMountains} alt="Blue Mountains" />
+        <img id="main-image" src={Church} alt="London Church" />
       </div>
 
       <main role="main" class="container">
@@ -33,36 +32,35 @@ const Australia = () => {
                 </h3>
 
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Sydney</h2>
-                  <p class="blog-post-meta">June 9-12, 2018</p>
+                  <h2 class="blog-post-title">London</h2>
+                  <p class="blog-post-meta">August, 2009</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={BondiBeach} alt="Bondi Beach" />
-                      <figcaption class="blog-photo-caption">Bondi Beach</figcaption>
+                    <img class="blog-photo" src={LondonEye} alt="London Eye" />
+                      <figcaption class="blog-photo-caption">The London Eye</figcaption>
                   </figure>
 
-                  <p>A trip to Sydney wouldn't be complete without checking out the famous Bondi Beach!</p>
-                  <p>This picture was taken at sunrise where I enjoyed a breakfast sandwich and a hot cup of coffee.  Many of the locals came out to catch the waves, walk their dog, or fancy a morning jog in the wee hours of what is winter for that part of the world.</p>
-                  <p>I also enjoyed walking up the steps of the Opera House, exploring the city on foot, and trying out delicious kangaroo steak!</p>
+                  <p>To celebrate my brother getting a job with Delta and also my high school graduation we took my first trip to Europe in 2009. First stop was a few days in London and then the rest of the week, Paris!</p>
+                  <p>We saw all the typical stuff like the gigantic 'London Eye' ferris wheel with views of Big Ben and met many friendly locals along the way.</p>
+                  <p>Please forgive my rather less than razor-sharp images, I think I was using an iPhone 3Gs back then...</p>
+
+                  <figure class="figure">
+                    <img class="blog-photo" src={Pod} alt="Pod" />
+                      <figcaption class="blog-photo-caption">One of the pods of the London Eye</figcaption>
+                  </figure>
 
                 </div>
 
                 <hr />
                 <div class="blog-post">
-                  <h2 class="blog-post-title">Blue Mountains</h2>
-                  <p class="blog-post-meta">June 11, 2018</p>
+                  <h3 class="blog-post-title">Eurostar</h3>
+                  <p class="blog-post-meta">August, 2009</p>
+
+                  <p>Now off to Paris via the Eurostar, a train that travels underwater through the Channel Tunnel!</p>
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Hiking} alt="Hiking" />
-                      <figcaption class="blog-photo-caption">Hiking in the Blue Mountains</figcaption>
-                  </figure>
-
-                  <p>A few hours on a train will take you from Sydney to the end of the line at Katoomba Station where you can hike the Blue Mountains of New South Wales. An easy day trip from the city gets you out into beautiful scenery and a chance to really stretch out your legs.</p>
-                  <p>Pictured below are the <a href="https://www.bluemts.com.au/info/thingstodo/threesisters/" target="_blank" >Three Sisters</a>, an unusual rock formation of the Blue Mountains.</p>
-
-                  <figure class="figure">
-                    <img class="blog-photo" src={ThreeSisters} alt="The Three Sisters" />
-                      <figcaption class="blog-photo-caption">The Three Sisters</figcaption>
+                    <img class="blog-photo" src={Eurostar} alt="Eurostar" />
+                      <figcaption class="blog-photo-caption">Onboard the Eurostar</figcaption>
                   </figure>
 
                   <hr />
@@ -78,8 +76,8 @@ const Australia = () => {
 
               <aside class="col-md-4 blog-sidebar">
                 <div class="p-3 mb-3 bg-light rounded">
-                  <h4 class="font-italic">New South Wales, AU</h4>
-                  <p class="mb-0">Pictured above, the Blue Mountains located just northwest of Sydney.</p>
+                  <h4 class="font-italic">London, EN</h4>
+                  <p class="mb-0">Pictured above, a local church in the streets of London.</p>
                 </div>
 
                 <div class="p-3">
@@ -115,12 +113,12 @@ const Australia = () => {
             <div class="row">
               <div class="col-sm">
                 <div class="location-polaroids rotate_right">
-                  <img id="location-images" src={KangarooSteak} alt="Kangaroo Steak" />
-                  <p id="caption">Kangaroo Steak</p>
+                  <img id="location-images" src={BigBen} alt="Big Ben" />
+                  <p id="caption">Big Ben</p>
                 </div>
                 <div class="location-polaroids rotate_left">
-                  <img id="location-images" src={AustraliaPassport} alt="Passport" />
-                  <p id="caption">One Way to Australia!</p>
+                  <img id="location-images" src={InTheEye} alt="Inside the London Eye" />
+                  <p id="caption">Inside the London Eye</p>
                 </div>
               </div>
             </div>
@@ -131,4 +129,4 @@ const Australia = () => {
     );
 }
 
-export default Australia;
+export default London;
