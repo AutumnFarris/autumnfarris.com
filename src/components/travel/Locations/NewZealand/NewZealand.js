@@ -57,10 +57,10 @@ const NewZealand = () => {
                 <p>The haka is still displayed today and you may have seen New Zealand's rugby team, the All Blacks, perform it on the playing field prior to the start of the game.</p>
                 <p>See the haka performed by the All Blacks vs. Australia here:</p>
                 <div>
-                  <iframe width="750" height="535" src="https://www.youtube.com/embed/I3gbneDt-S4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe title="Haka" width="750" height="535" src="https://www.youtube.com/embed/I3gbneDt-S4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <br />
-                <a href="https://www.newzealand.com/int/maori-culture/" target="_blank">Learn more about the Māori culture here:</a>
+                <a href="https://www.newzealand.com/int/maori-culture/" >Learn more about the Māori culture here:</a>
               </div>
 
               <div class="blog-post">
@@ -73,7 +73,7 @@ const NewZealand = () => {
                 </figure>
 
                 <p>I spent my 8 weeks living in Wellington, the quaint capital of New Zealand. One of the more unique things I found to do near the city was mountain biking.</p>
-                <p>Just a short 40 minute bus ride away gives you access to <a href="https://makarapeak.bike/" target="_blank">Makara Peak Mountain Biking Park</a>. No need to pack your own, you can easily rent bikes at the nearby <a href="https://www.mudcycles.co.nz/" target="_blank">Mud Cycle</a>.</p>
+                <p>Just a short 40 minute bus ride away gives you access to <a href="https://makarapeak.bike/" >Makara Peak Mountain Biking Park</a>. No need to pack your own, you can easily rent bikes at the nearby <a href="https://www.mudcycles.co.nz/" >Mud Cycle</a>.</p>
                 <p>The park was full of amazing views and a great way to experience Wellington like a local. If you're scared of heights this trail may not be for you as it features a swinging bridge that you must cross to continue on.</p>
 
               <figure class="figure">

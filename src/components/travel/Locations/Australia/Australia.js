@@ -58,7 +58,7 @@ const Australia = () => {
                   </figure>
 
                   <p>A few hours on a train will take you from Sydney to the end of the line at Katoomba Station where you can hike the Blue Mountains of New South Wales. An easy day trip from the city gets you out into beautiful scenery and a chance to really stretch out your legs.</p>
-                  <p>Pictured below are the <a href="https://www.bluemts.com.au/info/thingstodo/threesisters/" target="_blank" >Three Sisters</a>, an unusual rock formation of the Blue Mountains.</p>
+                  <p>Pictured below are the <a href="https://www.bluemts.com.au/info/thingstodo/threesisters/">Three Sisters</a>, an unusual rock formation of the Blue Mountains.</p>
 
                   <figure class="figure">
                     <img class="blog-photo" src={ThreeSisters} alt="The Three Sisters" />

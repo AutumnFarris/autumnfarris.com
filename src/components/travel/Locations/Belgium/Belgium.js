@@ -99,7 +99,7 @@ const Belgium = () => {
                       <figcaption class="blog-photo-caption">Belfry of Bruges</figcaption>
                   </figure>
 
-                  <p>Exploring Brugge was truly delightful. Anyone who has watched <a href="https://en.wikipedia.org/wiki/In_Bruges" target="_blank"><em>In Bruges</em></a> with Colin Farrell may already be familiar with the Belfry of Bruges, the medieval bell tower that dominates the city square.</p>
+                  <p>Exploring Brugge was truly delightful. Anyone who has watched <a href="https://en.wikipedia.org/wiki/In_Bruges" ><em>In Bruges</em></a> with Colin Farrell may already be familiar with the Belfry of Bruges, the medieval bell tower that dominates the city square.</p>
                   <p>A narrow staircase of 366 steps takes you to the top which leans about a meter to the east. Unfortunately at the time of my visit entry wasn't available to the public as it usually is, however it was still remarkable to see.</p>
                   <p>In Bruges I also discovered trappist beer, a delicious beer brewed by Trappist monks. <q>Fourteen monasteries—six in Belgium, two in the Netherlands, and one each in Austria, Italy, England, France, and the United States—produce Trappist beer as recognized by the International Trappist Association. </q></p>
                   <p>Although not inexpensive, if you're a beer connoisseur these are a must try!</p>

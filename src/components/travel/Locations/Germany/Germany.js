@@ -36,7 +36,7 @@ const Germany = () => {
 
                 <div class="blog-post">
                   <h2 class="blog-post-title">VBT Biking</h2>
-                  <p><a href="https://www.vbt.com/about/discover-vbt/" target="_blank">VBT</a> biking offers a fun way to explore areas of different countries via bicycle while being guided by a local.  It's a chance to escape touristy capitals and experience areas off the beaten path. </p>
+                  <p><a href="https://www.vbt.com/about/discover-vbt/">VBT</a> biking offers a fun way to explore areas of different countries via bicycle while being guided by a local.  It's a chance to escape touristy capitals and experience areas off the beaten path. </p>
 
                   <figure class="figure">
                     <img class="blog-photo" src={Map} alt="Map" />
@@ -63,7 +63,7 @@ const Germany = () => {
                   <br />
 
                   <figure class="figure">
-                    <img class="blog-photo" src={Family} alt="Family Photo" />
+                    <img class="blog-photo" src={Family} alt="Family" />
                       <figcaption class="blog-photo-caption">Family Photo</figcaption>
                   </figure>
 

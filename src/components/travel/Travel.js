@@ -8,6 +8,7 @@ import Germany from './Locations/Germany/Germany';
 import Austria from './Locations/Austria/Austria';
 import Belgium from './Locations/Belgium/Belgium';
 import London from './Locations/London/London';
+import France from './Locations/France/France';
 import { Route, Switch, useRouteMatch } from "react-router-dom"
 
 const Travel = () => {
@@ -40,6 +41,9 @@ const Travel = () => {
           </Route>
           <Route path={`${match.path}/London`}>
             <London />
+          </Route>
+          <Route path={`${match.path}/France`}>
+            <France />
           </Route>
           <Route>
             <TravelBlog />
