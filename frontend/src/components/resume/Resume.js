@@ -6,16 +6,18 @@ class Resume extends Component {
 
   constructor(props) {
       super(props);
-      this.state = { apiResponse: "" };
+      this.state = { skillset: [] };
   }
 
   callAPI() {
       fetch("http://localhost:9000/testResume")
-          .then(res => res.text())
-          .then(res => this.setState({ apiResponse: res }));
+          // parsing this as `json` instead of `text` so that we can treat
+          // it like an object
+          .then(res => res.json())
+          .then(res => this.setState({ skillset: res.skillset }));
   }
 
-  componentWillMount() {
+  componentDidMount() {
       this.callAPI();
   }
 
@@ -117,9 +119,13 @@ class Resume extends Component {
                   <div id='heading-one'>
                     <p>LANGUAGES</p>
                   </div>
-
-                  <p className="App-intro">Butters{this.state.apiResponse}</p>
-
+                    <ul class="ul-second-col">
+                      {this.state.skillset.map(item => (
+                        <li key={item.id}>
+                          FROM THE API! - {item.skill}
+                        </li>
+                      ))}
+                    </ul>
                     <ul class="ul-second-col">
                       <li>Html/CSS/SCSS</li>
                       <li>SQL</li>
