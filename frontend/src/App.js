@@ -12,6 +12,7 @@ import Footer from './components/footer/Footer';
 import './App.scss';
 
 class App extends Component {
+
   render() {
     return (
       <Router>

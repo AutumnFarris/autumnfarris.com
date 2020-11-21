@@ -3,6 +3,22 @@ import './Resume.scss';
 import Photo from './resume_photo.jpeg';
 
 class Resume extends Component {
+
+  constructor(props) {
+      super(props);
+      this.state = { apiResponse: "" };
+  }
+
+  callAPI() {
+      fetch("http://localhost:9000/testResume")
+          .then(res => res.text())
+          .then(res => this.setState({ apiResponse: res }));
+  }
+
+  componentWillMount() {
+      this.callAPI();
+  }
+
   render() {
     return (
     <div class='page-wrapper'>
@@ -101,6 +117,9 @@ class Resume extends Component {
                   <div id='heading-one'>
                     <p>LANGUAGES</p>
                   </div>
+
+                  <p className="App-intro">Butters{this.state.apiResponse}</p>
+
                     <ul class="ul-second-col">
                       <li>Html/CSS/SCSS</li>
                       <li>SQL</li>
