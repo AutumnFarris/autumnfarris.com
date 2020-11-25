@@ -10,7 +10,7 @@ class Resume extends Component {
   }
 
   callAPI() {
-      fetch("http://localhost:9000/testResume")
+      fetch("http://localhost:9000/resume")
           // parsing this as `json` instead of `text` so that we can treat
           // it like an object
           .then(res => res.json())
@@ -122,17 +122,9 @@ class Resume extends Component {
                     <ul class="ul-second-col">
                       {this.state.skillset.map(item => (
                         <li key={item.id}>
-                          FROM THE API! - {item.skill}
+                          {item.skill}
                         </li>
                       ))}
-                    </ul>
-                    <ul class="ul-second-col">
-                      <li>Html/CSS/SCSS</li>
-                      <li>SQL</li>
-                      <li>Javascript/JSON/React</li>
-                      <li>PHP</li>
-                      <li>Elixir</li>
-                      <li>C#</li>
                     </ul>
                     <div id='heading-one'>
                       <p>FRAMEWORKS/SOFTWARE</p>
