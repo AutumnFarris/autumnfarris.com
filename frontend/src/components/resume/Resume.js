@@ -11,14 +11,12 @@ class Resume extends Component {
 
   callAPI() {
       fetch("http://localhost:9000/resume")
-          // parsing this as `json` instead of `text` so that we can treat
-          // it like an object
-          .then(res => res.json())
-          .then(res => this.setState({ skillset: res.skillset }));
+        .then(res => res.json())
+        .then(res => this.setState({ skillset: res.skillset }));
   }
 
   componentDidMount() {
-      this.callAPI();
+    this.callAPI();
   }
 
   render() {
