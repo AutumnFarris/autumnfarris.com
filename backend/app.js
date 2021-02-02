@@ -1,41 +1,40 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var cors = require('cors');
+const express = require('express');
+const mysql = require('mysql');
+const cors = require('cors');
+var router = express.Router();
 
-var resumeRouter = require('./routes/resume');
-
-var app = express();
-
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
-
-app.use(cors());
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.use ('/resume', resumeRouter);
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
+const connection = mysql.createPool({
+  host     : 'localhost',
+  user     : 'root',
+  password : '7wvnd748',
+  database : 'resume'
 });
 
-// error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+// Starting our app.
+const app = express();
+var corsOptions = {
+    origin: 'http://localhost:3000',
+}
+app.use(cors(corsOptions));
+// Creating a GET route that returns data from the 'users' table.
+app.get('/languages', function (req, res) {
+    // Connecting to the database.
+    connection.getConnection(function (err, connection) {
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
+    // Executing the MySQL query (select all data from the 'users' table).
+    connection.query('SELECT language_name FROM languages', function (error, results, fields) {
+      // If some error occurs, we throw an error.
+      if (error) throw error;
+
+      // Getting the 'response' from the database and sending it to our route. This is were the data is.
+      res.send(results)
+    });
+  });
+});
+
+// Starting our server.
+app.listen(4000, () => {
+ console.log('Go to http://localhost:3000/users so you can see the data.');
 });
 
 module.exports = app;
