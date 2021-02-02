@@ -6,13 +6,13 @@ class Resume extends Component {
 
   constructor(props) {
       super(props);
-      this.state = { skillset: [] };
+      this.state = { languages: [] };
   }
 
   callAPI() {
-      fetch("http://localhost:9000/resume")
+      fetch("http://localhost:4000/languages")
         .then(res => res.json())
-        .then(res => this.setState({ skillset: res.skillset }));
+        .then(res => this.setState({ languages: res }));
   }
 
   componentDidMount() {
@@ -118,9 +118,9 @@ class Resume extends Component {
                     <p>LANGUAGES</p>
                   </div>
                     <ul class="ul-second-col">
-                      {this.state.skillset.map(item => (
+                      {this.state.languages.map(item => (
                         <li key={item.id}>
-                          {item.skill}
+                          {item.language_name}
                         </li>
                       ))}
                     </ul>
