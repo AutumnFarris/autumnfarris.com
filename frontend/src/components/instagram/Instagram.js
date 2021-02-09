@@ -1,6 +1,7 @@
 import React from 'react';
 import InstagramEmbed from 'react-instagram-embed';
 import './Instagram.scss';
+import Iframe from 'react-iframe';
 
 const Instagram = () => {
     return (

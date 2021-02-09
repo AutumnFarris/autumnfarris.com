@@ -1,4 +1,3 @@
-
 USE resume;
 
 DROP TABLE IF EXISTS languages;
