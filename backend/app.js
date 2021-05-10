@@ -1,5 +1,5 @@
 const express = require('express');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const cors = require('cors');
 var router = express.Router();
 
@@ -19,20 +19,23 @@ var corsOptions = {
 app.use(cors(corsOptions));
 
 app.get('/languages', function (req, res) {
-
     connection.getConnection(function (err, connection) {
-
-    connection.query('SELECT language_name FROM languages', function (error, results, fields) {
-
-      if (error) throw error;
-
+    if (err) {
+      console.error(err);
+      res.status(500);
+      res.send(err);
+      return;
+    }
+    connection.query('SELECT language_name FROM languages', function (err, results, fields) {
+      if (err) {
+        console.error(err);
+        res.status(500);
+        res.send(err);
+        return;
+      }
       res.send(results)
     });
   });
-});
-
-app.listen(4000, () => {
- console.log('Go to http://localhost:4000/languages so you can see the data.');
 });
 
 module.exports = app;
